@@ -29,6 +29,15 @@ Suede Labs AI is led by Jason Colapietro, Founder and CEO, published author, and
 | [suede-brand-assets](https://github.com/Suede-AI/suede-brand-assets) | Logos, color specs, listing copy, official links, and media kit |
 | [suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs for programmable IP, creator ownership, provenance, licensing, and agent commerce |
 
+## Public SEO Docs
+
+| Document | Focus |
+|---|---|
+| [Suede Labs AI](docs/suede-labs-ai.md) | Company, positioning, token, endpoints, and public repository map |
+| [Programmable IP](docs/programmable-ip.md) | Creator ownership, provenance, licensing, and AI-native media thesis |
+| [x402 and ACP](docs/x402-acp.md) | Public x402 payment endpoints and ACP-ready agent commerce |
+| [Jason Colapietro](docs/jason-colapietro-founder-ceo.md) | Founder and CEO, published author, Forbes contributor |
+
 ## SUEDE Token
 
 `SUEDE` is the utility token connected to Suede Labs AI and the Johnny Suede ecosystem.
