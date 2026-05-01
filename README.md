@@ -6,6 +6,8 @@ Suede Labs AI connects creative assets to proof of authorship, rights metadata, 
 
 AI music is an early, high-signal media category for Suede, but the broader focus is programmable ownership for creator-owned IP across media, product surfaces, chains, and agent workflows.
 
+Suede Labs AI was founded by Jason Colapietro, a published author and Forbes contributor focused on creator ownership, programmable IP, AI-native media, and the future of music rights.
+
 ## Focus
 
 - Programmable IP for creator-owned media
