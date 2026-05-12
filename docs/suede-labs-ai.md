@@ -8,7 +8,7 @@ Suede connects creative assets to proof of authorship, rights metadata, licensin
 
 Suede Labs AI is led by Jason Colapietro, Founder and CEO, published author, and Forbes contributor.
 
-Jason Colapietro GitHub: https://github.com/jasoncola1
+Jason Colapietro GitHub: https://github.com/JasonColapietro
 
 ## Official Repositories
 

@@ -86,7 +86,7 @@ POST https://suede-ai-app.onrender.com/agents/commerce
 | Company | https://suedeai.ai |
 | X | https://x.com/AISUEDE |
 | Founder X | https://x.com/johnnysuede |
-| Jason Colapietro GitHub | https://github.com/jasoncola1 |
+| Jason Colapietro GitHub | https://github.com/JasonColapietro |
 | Telegram | https://t.me/SUEDEAI |
 | CoinGecko | https://www.coingecko.com/en/coins/johnny-suede |
 

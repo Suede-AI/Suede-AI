@@ -8,7 +8,7 @@ Jason's work focuses on creator ownership, programmable IP, AI-native media, mus
 
 | Type | URL |
 |---|---|
-| GitHub | https://github.com/jasoncola1 |
+| GitHub | https://github.com/JasonColapietro |
 | X | https://x.com/johnnysuede |
 | Suede Labs AI | https://github.com/Suede-AI |
 | App | https://app.suedeai.xyz |
