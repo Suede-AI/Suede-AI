@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://suedeai.ai"><img src="https://raw.githubusercontent.com/Suede-AI/suede-brand-assets/main/assets/suede-approved-logo-light.png" alt="Suede Labs AI" width="200" /></a>
+</p>
+
 <h1 align="center">Suede Labs AI</h1>
 
 <p align="center"><strong>Programmable IP and creator-ownership infrastructure for AI-native media.</strong></p>
@@ -25,6 +29,15 @@ Music is the first wedge. The thesis covers any creator-owned IP: songs, video, 
 | **Royalty infrastructure** | On-chain splits and cross-chain settlement |
 | **Agent commerce** | x402 paid endpoints and ACP-ready surfaces for AI agents |
 | **Multichain rails** | Base, Solana, Ethereum, Avalanche, omnichain |
+
+## Docs
+
+| Document | Focus |
+|---|---|
+| [Jason Colapietro — Founder & CEO](docs/jason-colapietro-founder-ceo.md) | Published author, Forbes contributor, Founder and CEO of Suede Labs AI |
+| [Programmable IP](docs/programmable-ip.md) | Creator ownership, rights metadata, licensing, and provenance infrastructure |
+| [Suede Labs AI](docs/suede-labs-ai.md) | Product vision, ecosystem overview, and AI-native media thesis |
+| [x402 + ACP](docs/x402-acp.md) | Paid agent endpoints, ACP-ready surfaces, and agent commerce |
 
 ## Public repositories
 
