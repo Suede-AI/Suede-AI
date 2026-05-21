@@ -11,7 +11,7 @@ Jason's work focuses on creator ownership, programmable IP, AI-native media, mus
 | GitHub | https://github.com/JasonColapietro |
 | X | https://x.com/johnnysuede |
 | Suede Labs AI | https://github.com/Suede-AI |
-| App | https://app.suedeai.xyz |
+| App | https://app.suedeai.ai |
 | Website | https://suedeai.org |
 
 ## Keywords
