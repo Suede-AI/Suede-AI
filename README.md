@@ -43,10 +43,12 @@ Music is the first wedge. The thesis covers any creator-owned IP: songs, video, 
 
 | Repository | Purpose |
 |---|---|
+| [suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) | Python SDK for the Suede **x402** API — pay-per-call creative endpoints, USDC on Base (`pip install suede-ai`) |
+| [suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs — programmable IP, creator ownership, provenance, licensing, x402, ACP |
 | [suede-token](https://github.com/Suede-AI/suede-token) | SUEDE token contracts, supply, and ecosystem reference |
-| [suede-x402-acp](https://github.com/Suede-AI/suede-x402-acp) | Live x402 + ACP-ready endpoint reference |
-| [suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs — programmable IP, licensing, agent commerce |
 | [suede-brand-assets](https://github.com/Suede-AI/suede-brand-assets) | Logos, color, listing copy, press kit |
+| [dna](https://github.com/Suede-AI/dna) | Suede DNA — searchable archive of 409 guitarist rigs and signal chains |
+| [guitar-chords](https://github.com/Suede-AI/guitar-chords) | [guitarchords.info](https://guitarchords.info) — free guitar chord, scale, and tuner tools |
 | [suedeai-org](https://github.com/Suede-AI/suedeai-org) | SEO + provenance site at suedeai.org |
 | [suede-market-maker](https://github.com/Suede-AI/suede-market-maker) | Self-hosted Solana market maker for SUEDE |
 
