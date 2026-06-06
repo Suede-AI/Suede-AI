@@ -30,6 +30,10 @@ Music is the first wedge. The thesis covers any creator-owned IP: songs, video, 
 | **Agent commerce** | x402 paid endpoints and ACP-ready surfaces for AI agents |
 | **Multichain rails** | Base, Solana, Ethereum, Avalanche, omnichain |
 
+## The Suede 100
+
+**[The Suede 100: The List the Press Will Never Print](https://social.suedeai.ai/suede-100)** — Suede's flagship publishing surface. Editorial canon and accountability ranking of the creative-AI era, scored, sourced, and on-the-record. New entries land in [Suede Social Forum](https://social.suedeai.ai/forum/suede-100) for community discussion.
+
 ## Docs
 
 | Document | Focus |
