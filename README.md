@@ -48,6 +48,7 @@ Music is the first wedge. The thesis covers any creator-owned IP: songs, video, 
 | Repository | Purpose |
 |---|---|
 | [suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) | Python SDK for the Suede **x402** API — pay-per-call creative endpoints, USDC on Base (`pip install suede-ai`) |
+| [suede-x402-acp](https://github.com/Suede-AI/suede-x402-acp) | Live x402 + ACP-ready endpoint reference |
 | [suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs — programmable IP, creator ownership, provenance, licensing, x402, ACP |
 | [suede-token](https://github.com/Suede-AI/suede-token) | SUEDE token contracts, supply, and ecosystem reference |
 | [suede-brand-assets](https://github.com/Suede-AI/suede-brand-assets) | Logos, color, listing copy, press kit |
