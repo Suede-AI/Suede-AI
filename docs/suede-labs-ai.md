@@ -15,7 +15,6 @@ Jason Colapietro GitHub: https://github.com/JasonColapietro
 | Repository | Purpose |
 |---|---|
 | https://github.com/Suede-AI/suede-token | SUEDE token, contracts, supply, and ecosystem reference |
-| https://github.com/Suede-AI/suede-x402-acp | x402 payment and ACP-ready endpoint reference |
 | https://github.com/Suede-AI/suede-brand-assets | Brand assets, colors, listing copy, and public packet |
 | https://github.com/Suede-AI/suede-docs | Public docs for programmable IP and creator ownership |
 

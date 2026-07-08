@@ -2,30 +2,9 @@
 
 Suede Labs AI exposes public x402 payment surfaces and an ACP-ready agent commerce endpoint for AI-native media workflows.
 
-## Public x402 Discovery
+## Live Endpoints
 
-```text
-GET https://app.suedeai.xyz/.well-known/x402
-GET https://app.suedeai.xyz/.well-known/x402.json
-```
-
-## Public Paid Endpoints
-
-```text
-POST https://app.suedeai.xyz/agent/generate
-POST https://app.suedeai.xyz/create-music
-POST https://app.suedeai.xyz/agent/video
-```
-
-## ACP-Ready Commerce Endpoint
-
-```text
-POST https://suede-ai-app.onrender.com/agents/commerce
-```
-
-## Official Endpoint Reference
-
-https://github.com/Suede-AI/suede-x402-acp
+The canonical, up-to-date list of x402 discovery, paid, and ACP-ready endpoints is maintained in one place — see [Agent surfaces](https://github.com/Suede-AI/Suede-AI#agent-surfaces) in the root README.
 
 ## Keywords
 
