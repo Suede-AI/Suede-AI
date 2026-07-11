@@ -77,9 +77,9 @@ Suede exposes paid x402 endpoints and an ACP-ready agent commerce surface for AI
 GET  https://app.suedeai.ai/.well-known/x402
 GET  https://app.suedeai.ai/.well-known/x402.json
 GET  https://app.suedeai.ai/.well-known/agent-card.json
-POST https://app.suedeai.ai/agent/generate
 POST https://app.suedeai.ai/create-music
 POST https://app.suedeai.ai/agent/video
+POST https://app.suedeai.ai/agent/image
 POST https://suede-ai-app.onrender.com/agents/commerce
 ```
 
