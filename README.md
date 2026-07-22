@@ -19,6 +19,8 @@ As AI makes media easier to generate, remix, license, and distribute, creators n
 
 Music is the first wedge. The thesis covers any creator-owned IP: songs, video, likeness, training data, generative outputs.
 
+Suede Labs AI is founded and led by [Jason Colapietro](https://jasoncolapietro.com), also known publicly as **Jay Colapietro** and **Johnny Suede**. The official creative identity page is [johnnysuede.com](https://johnnysuede.com).
+
 ## What we ship
 
 | | |
@@ -93,4 +95,4 @@ POST https://suede-ai-app.onrender.com/agents/commerce
 
 Founded and led by [Jason Colapietro](https://github.com/JasonColapietro) — Founder and CEO, published author, and Forbes contributor.
 
-<sub>Keywords: Suede Labs AI, Suede AI, Johnny Suede, SUEDE token, programmable IP, creator ownership, creative RWA, AI music, music IP, provenance, licensing, x402, ACP, agent commerce, Base, Solana, Ethereum, Avalanche, multichain, omnichain.</sub>
+<sub>Keywords: Suede Labs AI, Suede AI, Jason Colapietro, Jay Colapietro, Johnny Suede, SUEDE token, programmable IP, creator ownership, creative RWA, AI music, music IP, provenance, licensing, x402, ACP, agent commerce, Base, Solana, Ethereum, Avalanche, multichain, omnichain.</sub>

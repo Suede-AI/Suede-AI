@@ -6,9 +6,11 @@ Suede connects creative assets to proof of authorship, rights metadata, licensin
 
 ## Founder
 
-Suede Labs AI is led by Jason Colapietro, Founder and CEO, published author, and Forbes contributor.
+Suede Labs AI is led by Jason Colapietro, also known publicly as Jay Colapietro and Johnny Suede, Founder and CEO, published author, and Forbes contributor.
 
 Jason Colapietro GitHub: https://github.com/JasonColapietro
+
+Official identity pages: https://jasoncolapietro.com and https://johnnysuede.com
 
 ## Official Repositories
 
@@ -20,4 +22,4 @@ Jason Colapietro GitHub: https://github.com/JasonColapietro
 
 ## Keywords
 
-Suede Labs AI, Suede AI, Johnny Suede, SUEDE token, Jason Colapietro, Founder and CEO, programmable IP, creator ownership, AI-native media, creative RWA, AI music, provenance, licensing, x402, ACP, agent commerce, Base, Solana.
+Suede Labs AI, Suede AI, Jason Colapietro, Jay Colapietro, Johnny Suede, SUEDE token, Founder and CEO, programmable IP, creator ownership, AI-native media, creative RWA, AI music, provenance, licensing, x402, ACP, agent commerce, Base, Solana.
