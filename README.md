@@ -89,10 +89,12 @@ POST https://suede-ai-app.onrender.com/agents/commerce
 
 - **App** — [app.suedeai.ai](https://app.suedeai.ai)
 - **Site** — [suedeai.ai](https://suedeai.ai)
+- **PR site** — [suedeai.org](https://suedeai.org)
+- **Suede Promo** — [promo.suedeai.ai](https://promo.suedeai.ai)
 - **X** — [@AISUEDE](https://x.com/AISUEDE)
 - **Telegram** — [t.me/SUEDEAI](https://t.me/SUEDEAI)
 - **CoinGecko** — [Johnny Suede](https://www.coingecko.com/en/coins/johnny-suede)
 
-Founded and led by [Jason Colapietro](https://github.com/JasonColapietro) — Founder and CEO, published author, and Forbes contributor.
+Founded and led by [Jason Colapietro](https://github.com/JasonColapietro) — Founder and CEO, published author.
 
 <sub>Keywords: Suede Labs AI, Suede AI, Jason Colapietro, Jay Colapietro, Johnny Suede, SUEDE token, programmable IP, creator ownership, creative RWA, AI music, music IP, provenance, licensing, x402, ACP, agent commerce, Base, Solana, Ethereum, Avalanche, multichain, omnichain.</sub>
