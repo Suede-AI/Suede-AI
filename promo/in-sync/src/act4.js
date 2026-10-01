@@ -16,13 +16,13 @@ const PRODUCTS = [
 
 // ---------------------------------------------------------------- IN SYNC galaxy (drop at 145.0)
 export function inSync(E) {
-  const S = new Shot(E, { fov: 34, sky: { a: '#3a2ab8', b: '#7a2a9a', c: '#1a4aa8', base: '#020210', seed: 3.9, density: 1.25, intensity: 1.15 }, bloom: { strength: .85, radius: .75, threshold: .88 }, grade: { vig: .5, sat: 1.08 }, focus: 7, focusRange: 6 });
+  const S = new Shot(E, { fov: 34, sky: { a: '#3a2ab8', b: '#7a2a9a', c: '#1a4aa8', base: '#020210', seed: 3.9, density: 1.25, intensity: 1.15 }, bloom: { strength: .7, radius: .7, threshold: .9 }, grade: { vig: .5, sat: 1.08 }, focus: 7, focusRange: 6 });
   const cam = S.camera;
-  const logo = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), M.logoMaterial({ mask: E.img('logo_mask.png'), colorA: '#ffffff', colorB: '#8e98d0', intensity: 1, emit: .1 }));
+  const logo = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), M.logoMaterial({ mask: E.img('logo_mask.png'), colorA: '#eef0fa', colorB: '#7f89c0', intensity: .82, emit: .05 }));
   logo.userData.billboard = true; S.add(logo);
   const core = S.add(glow({ size: 3.4, color: '#6a5cff', falloff: 5, intensity: .25 })); core.position.z = -.2;
   const coreHot = S.add(glow({ size: 1.2, color: '#c9d0ff', falloff: 6, intensity: .15 })); coreHot.position.z = -.1;
-  const shock = glow({ size: 1, color: '#dfe3ff', falloff: 60, ring: 1.6, ringR: .9, ringW: .02, intensity: 0 }); S.add(shock);
+  const shock = glow({ size: 1, color: '#dfe3ff', falloff: 60, ring: 1.6, ringR: .9, ringW: .02, intensity: 0, core: 0 }); S.add(shock);
   const orbits = [{ r: 1.65, tilt: [.42, .1], speed: .16, n: 4 }, { r: 2.5, tilt: [.3, -.22], speed: -.11, n: 5 }, { r: 3.35, tilt: [.5, .18], speed: .075, n: 4 }];
   let k = 0; const orbs = [], spins = [], rings = [];
   orbits.forEach((o, oi) => {

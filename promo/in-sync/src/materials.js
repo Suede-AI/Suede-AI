@@ -269,12 +269,12 @@ export function makeParticles(n, o = {}, rand = Math.random) {
 export function glowMaterial(o = {}) {
   return new THREE.ShaderMaterial({
     transparent: true, depthWrite: false, depthTest: o.depthTest ?? true, blending: THREE.AdditiveBlending,
-    uniforms: { uC: { value: new THREE.Color(o.color || '#ffffff') }, uI: { value: o.intensity ?? 1 }, uOpacity: { value: 1 }, uFall: { value: o.falloff ?? 4 }, uRing: { value: o.ring ?? 0 }, uRingR: { value: o.ringR ?? .6 }, uRingW: { value: o.ringW ?? .03 } },
+    uniforms: { uC: { value: new THREE.Color(o.color || '#ffffff') }, uI: { value: o.intensity ?? 1 }, uOpacity: { value: 1 }, uFall: { value: o.falloff ?? 4 }, uRing: { value: o.ring ?? 0 }, uRingR: { value: o.ringR ?? .6 }, uRingW: { value: o.ringW ?? .03 }, uCoreI: { value: o.core ?? 1 } },
     vertexShader: `varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.); }`,
     fragmentShader: /* glsl */`
-      uniform vec3 uC; uniform float uI, uOpacity, uFall, uRing, uRingR, uRingW; varying vec2 vUv;
+      uniform vec3 uC; uniform float uI, uOpacity, uFall, uRing, uRingR, uRingW, uCoreI; varying vec2 vUv;
       void main(){ float r = length(vUv - .5) * 2.;
-        float g = exp(-r * r * uFall) * smoothstep(1., .8, r);
+        float g = exp(-r * r * uFall) * smoothstep(1., .8, r) * uCoreI;
         float ring = exp(-pow((r - uRingR) / uRingW, 2.)) * uRing;
         gl_FragColor = vec4(uC * (g + ring) * uI * uOpacity, 1.); }`,
   });

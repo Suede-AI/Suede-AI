@@ -135,7 +135,7 @@ function mixMaterial() {
           vec3 a = zoomBlur(uA, vUv, .25 * pa * uAmt, 1. - .35 * pa * pa);
           vec3 b = zoomBlur(uB, vUv, .25 * (1. - pb) * uAmt, 1. + .25 * (1. - pb) * (1. - pb));
           col = mix(a, b, ss(.3, .7, p));
-          col += uColor * exp(-pow((p - .5) * 5., 2.)) * .6 * uAmt; }
+          col *= 1. + exp(-pow((p - .5) * 5., 2.)) * 1.2 * uAmt; col += uColor * exp(-pow((p - .5) * 5., 2.)) * .05 * uAmt; }
         else if (uType < 2.5) { // whip pan
           float e = p < .5 ? 4. * p * p * p : 1. - pow(-2. * p + 2., 3.) / 2.;
           vec2 o = uDir * e; float bl = sin(3.14159 * p) * .14 * uAmt;
@@ -143,7 +143,7 @@ function mixMaterial() {
           col = mix(a, b, ss(.99, 1.01, dot(vUv, uDir) + e)); }
         else if (uType < 3.5) { // flash cut
           col = p < .5 ? texture(uA, vUv).rgb : texture(uB, vUv).rgb;
-          col += uColor * exp(-abs(p - .5) * 9.) * 1.6 * uAmt; }
+          float fl = exp(-abs(p - .5) * 10.); col = col * (1. + fl * 3. * uAmt) + uColor * fl * .55 * uAmt; }
         else if (uType < 4.5) { col = p < .5 ? texture(uA, vUv).rgb : texture(uB, vUv).rgb; }
         else if (uType < 5.5) { // iris from center with glowing edge
           float r = length((vUv - .5) * vec2(16./9., 1.));
@@ -177,8 +177,8 @@ function finalMaterial() {
         vec2 d = vUv - .5; float r2 = dot(d, d);
         vec2 off = d * r2 * uCA * 18.;
         vec3 c = vec3(texture(uTex, vUv - off).r, texture(uTex, vUv).g, texture(uTex, vUv + off).b);
-        c *= uExpo;
-        c += uFlashC * uFlash * (0.65 + .35 * exp(-r2 * 3.));
+        c *= uExpo * (1. + uFlash * 2.2);
+        c += uFlashC * uFlash * .06 * (0.6 + .4 * exp(-r2 * 3.));
         c = shoulder(c);
         float l = dot(c, vec3(.2126, .7152, .0722));
         c = mix(vec3(l), c, uSat);

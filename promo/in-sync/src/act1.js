@@ -23,8 +23,8 @@ export function genesis(E) {
   const core = S.add(glow({ size: .5, color: '#c9d2ff', falloff: 9 })); core.position.z = -.4;
   const halo = S.add(glow({ size: 2.6, color: '#4b4bff', falloff: 5, intensity: .2 })); halo.position.z = -.6;
   const streak = S.add(glow({ sx: 7, sy: .07, color: '#9fb0ff', falloff: 2.2, intensity: 0 }));
-  const rings = [0.9, 1.25, 1.7, 2.3].map((r, i) => { const g = glow({ size: r * 2, color: '#7f88ff', falloff: 40, ring: .35, ringR: .96, ringW: .006, intensity: 0 }); g.userData.billboard = false; return S.add(g); });
-  const shock = S.add(glow({ size: 1, color: '#d9deff', falloff: 60, ring: 1.4, ringR: .9, ringW: .02, intensity: 0 })); shock.userData.billboard = false;
+  const rings = [0.9, 1.25, 1.7, 2.3].map((r, i) => { const g = glow({ size: r * 2, color: '#7f88ff', falloff: 40, ring: .35, ringR: .96, ringW: .006, intensity: 0, core: 0 }); g.userData.billboard = false; return S.add(g); });
+  const shock = S.add(glow({ size: 1, color: '#d9deff', falloff: 60, ring: 1.4, ringR: .9, ringW: .02, intensity: 0, core: 0 })); shock.userData.billboard = false;
   // thread spiralling into the core
   const pts = []; for (let i = 0; i <= 80; i++) { const a = i / 80, ang = a * Math.PI * 3.5, r = lerp(9, .62, ease.outCubic(a)); pts.push([Math.cos(ang) * r, Math.sin(ang) * r * .7, lerp(-14, 0, a)]); }
   const thread = S.add(M.makeThread(pts, { colorA: '#7b6cff', colorB: '#ffd9a0', width: .05, intensity: 1.4, pulseN: 2 }));

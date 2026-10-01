@@ -50,7 +50,7 @@ export const TRANSITIONS = [
   [114.0, .6, 'zoom', { amt: .3, flash: .1, color: '#d8d0ff' }],
   [124.0, .6, 'blurfade'],
   [132.0, .6, 'push'],
-  [144.9, .4, 'flash', { color: '#ffffff', amt: 1 }],
+  [144.9, .4, 'flash', { color: '#ffffff', amt: .8 }],
   [157.0, .6, 'zoom', { color: '#ffd38a', amt: .35, flash: .15 }],
   [165.0, .8, 'blurfade'],
   [182.0, 1.0, 'blurfade'],

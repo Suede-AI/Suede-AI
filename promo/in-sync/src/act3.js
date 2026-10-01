@@ -301,7 +301,7 @@ export function seoHub(E) {
   const S = new Shot(E, { fov: 30, sky: { a: '#0b5a4a', b: '#0a3a3a', c: '#1a7a6a', base: '#000403', seed: 91.9, density: .9 }, bloom: { strength: .7, radius: .7, threshold: .92 }, grade: { vig: .5 }, focus: 5.2, focusRange: 5 });
   const cam = S.camera;
   const hub = new THREE.Group(); hub.position.set(1.5, 0, 0); S.add(hub);
-  const ring = glow({ size: 1.3, color: '#5fe6c4', falloff: 30, ring: 1.3, ringR: .82, ringW: .02, intensity: 1 }); hub.add(ring);
+  const ring = glow({ size: 1.3, color: '#5fe6c4', falloff: 30, ring: 1.3, ringR: .82, ringW: .02, intensity: 1, core: .35 }); hub.add(ring);
   const ringGlow = glow({ size: 1.8, color: '#2fbf9a', falloff: 4, intensity: .25 }); hub.add(ringGlow);
   const hubL1 = label(S, E, 'YOUR BRAND', { size: 22, tracking: 7, scale: .9, color: 'rgba(170,255,225,.85)' }); hub.attach(hubL1); hubL1.position.set(0, .14, .01);
   const hubL2 = label(S, E, 'yoursite.com', { size: 64, font: "'Instrument Serif'", weight: 400, tracking: 0, scale: 1.0, color: '#e9fff7', pad: 10 }); hub.attach(hubL2); hubL2.position.set(0, -.06, .01);
@@ -324,7 +324,7 @@ export function seoHub(E) {
     const implode = prog(lt, 11.0, 12.6, ease.inExpo);        // 143.0 → 144.6
     const riser = prog(lt, 11.6, 12.95, ease.inCubic);
     const push = prog(lt, 11.2, 13.0, ease.inExpo);
-    look(cam, [kf(lt, [[0, -.2], [11, .35, ease.inOutSine]]) + push * .9, .05, kf(lt, [[0, 5.6], [11, 5.0]]) - push * 3.6], [lerp(.7, 1.5, push), 0, 0]);
+    look(cam, [kf(lt, [[0, -.6], [11, .5, ease.inOutSine]]) + push * .9, kf(lt, [[0, .35], [11, -.15, ease.inOutSine]]), kf(lt, [[0, 6.0], [11, 4.75, ease.inOutSine]]) - push * 3.4], [lerp(.7, 1.5, push), 0, 0]);
     drift(cam, lt, .5 * (1 - push), 71);
     hub.rotation.set(Math.sin(lt * .2) * .12, Math.sin(lt * .15) * .25, 0);
     chips.forEach((l, i) => {
