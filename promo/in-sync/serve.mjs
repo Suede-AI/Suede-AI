@@ -1,0 +1,4 @@
+import http from 'http'; import fs from 'fs'; import path from 'path';
+const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.woff2':'font/woff2','.css':'text/css','.json':'application/json'};
+export function serve(root, port){ return new Promise(res=>{ const s=http.createServer((q,r)=>{const f=path.join(root,decodeURIComponent(q.url.split('?')[0]));fs.readFile(f,(e,d)=>{if(e){r.writeHead(404);r.end();return;}r.writeHead(200,{'content-type':types[path.extname(f)]||'application/octet-stream','cache-control':'no-store'});r.end(d);});}); s.listen(port,()=>res(s)); }); }
+export const GL_ARGS=['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--ignore-gpu-blocklist','--disable-gpu-vsync','--max-gum-fps=1000','--js-flags=--max-old-space-size=8192'];

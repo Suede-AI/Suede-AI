@@ -1,0 +1,10 @@
+{
+  "name": "suede-in-sync-film",
+  "private": true,
+  "type": "module",
+  "description": "Suede AI — In Sync: deterministic Three.js film renderer",
+  "dependencies": {
+    "playwright": "1.56.x",
+    "three": "0.170.x"
+  }
+}

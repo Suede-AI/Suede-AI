@@ -1,0 +1,121 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:transparent;font-family:Inter,sans-serif;color:#e9ebf5;-webkit-font-smoothing:antialiased;padding:40px;display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start}
+.mono{font-family:'JetBrains Mono',monospace}
+.serif{font-family:'Instrument Serif',serif}
+.glass{border-radius:20px;background:linear-gradient(180deg,rgba(36,38,58,.94),rgba(17,18,30,.96));border:1px solid rgba(255,255,255,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),inset 0 -1px 0 rgba(0,0,0,.4)}
+/* agent nodes */
+.node{width:300px;height:104px;padding:20px 22px;display:flex;gap:16px;align-items:center}
+.node .dot{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font:600 15px 'JetBrains Mono';color:#fff}
+.node .k{font:500 11px 'JetBrains Mono';letter-spacing:.14em;text-transform:uppercase;opacity:.55;margin-bottom:6px}
+.node .v{font:500 21px Inter;letter-spacing:-.01em}
+/* certificate */
+#cert{width:760px;height:520px;border-radius:6px;background:#f4efe2;color:#2a2a22;position:relative;overflow:hidden;padding:44px 52px;
+ background-image:radial-gradient(circle at 20% 10%,rgba(255,255,255,.7),transparent 60%),repeating-linear-gradient(45deg,rgba(60,90,60,.025) 0 2px,transparent 2px 6px)}
+#cert:before{content:'';position:absolute;inset:16px;border:1.5px solid #2f5d43;border-radius:3px}
+#cert:after{content:'';position:absolute;inset:22px;border:.5px solid rgba(47,93,67,.5);border-radius:2px}
+#cert .eb{font:500 11px 'JetBrains Mono';letter-spacing:.24em;color:#2f5d43;text-transform:uppercase}
+#cert h2{font:400 46px 'Instrument Serif';margin:14px 0 4px;letter-spacing:-.01em}
+#cert h2 i{color:#2f5d43}
+#cert .row{display:flex;justify-content:space-between;border-bottom:1px solid rgba(40,40,30,.15);padding:11px 0;font:400 15px Inter}
+#cert .row span:first-child{font:500 11px 'JetBrains Mono';letter-spacing:.16em;text-transform:uppercase;color:#6b6a5c;padding-top:3px}
+#cert .wm{position:absolute;left:120px;top:230px;font:400 120px 'Instrument Serif';letter-spacing:.2em;color:rgba(47,93,67,.07);transform:rotate(-12deg)}
+#cert .hash{font:400 11px 'JetBrains Mono';color:#6b6a5c;margin-top:16px;letter-spacing:.04em}
+#stamp{width:230px;height:230px;border-radius:50%;border:5px solid #b4372f;color:#b4372f;display:grid;place-items:center;position:relative;transform:rotate(-14deg)}
+#stamp:before{content:'';position:absolute;inset:10px;border-radius:50%;border:1.5px solid #b4372f}
+#stamp .in{text-align:center;font:600 13px 'JetBrains Mono';letter-spacing:.2em}
+#stamp .big{font:400 44px 'Instrument Serif';letter-spacing:0;font-style:italic;margin:4px 0}
+/* info cards */
+.info{width:440px;padding:30px 32px}
+.info h3{font:400 34px 'Instrument Serif';letter-spacing:-.01em;margin-bottom:18px}
+.info li{list-style:none;font:500 14px 'JetBrains Mono';padding:9px 0;border-top:1px solid rgba(255,255,255,.08);display:flex;gap:12px;align-items:center}
+.info li b{width:8px;height:8px;border-radius:50%;display:inline-block}
+.code{font:400 15px 'JetBrains Mono';line-height:1.9}
+.code .m{color:#7ee0a6}.code .p{color:#f5c76a}.code .c{color:rgba(255,255,255,.45)}
+/* phone screens 393x852 */
+.ph{width:393px;height:852px;background:#07080d;position:relative;overflow:hidden;padding:64px 22px 30px;font-family:Inter}
+.ph .eb{font:500 10px 'JetBrains Mono';letter-spacing:.2em;color:#5fd6d0;text-transform:uppercase;text-align:center}
+.ph h4{font:400 40px 'Instrument Serif';text-align:center;line-height:1.02;margin:10px 0 22px;letter-spacing:-.01em}
+.ph .img{border-radius:18px;background-size:cover;background-position:center;box-shadow:0 0 0 1px rgba(255,255,255,.1)}
+.ph .prompt{margin-top:16px;border-radius:16px;background:#14161f;border:1px solid rgba(255,255,255,.1);padding:14px 16px;font:400 14px Inter;color:#cfd3e6;line-height:1.45}
+.ph .btn{margin-top:14px;border-radius:14px;background:linear-gradient(90deg,#1fb5ad,#5fd6d0);color:#04110f;font:600 15px Inter;text-align:center;padding:14px}
+.ph .tl{display:flex;gap:6px;margin-top:14px}.ph .tl div{flex:1;height:56px;border-radius:8px;background-size:cover;background-position:center;opacity:.85}
+.ph .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.ph .grid div{height:150px;border-radius:14px;background-size:cover;background-position:center}
+.ph .bar{height:4px;border-radius:2px;background:rgba(255,255,255,.12);margin-top:16px;overflow:hidden}.ph .bar i{display:block;height:100%;width:62%;background:#5fd6d0}
+/* icons */
+.icon{width:256px;height:256px;border-radius:58px;position:relative;overflow:hidden;box-shadow:inset 0 2px 0 rgba(255,255,255,.25),inset 0 -3px 8px rgba(0,0,0,.35)}
+.icon .s{position:absolute;inset:34px;-webkit-mask:url(../assets/img/logo_mask.png) center/120% no-repeat;mask:url(../assets/img/logo_mask.png) center/120% no-repeat}
+.icon .gl{position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.28),transparent 45%)}
+</style></head><body>
+
+<div id="node-input" class="glass node"><div class="dot" style="background:linear-gradient(135deg,#3ec7a0,#178a6c)">IN</div><div><div class="k">Input</div><div class="v">New lead arrives</div></div></div>
+<div id="node-llm1" class="glass node"><div class="dot" style="background:linear-gradient(135deg,#8b7bff,#5a46e0)">AI</div><div><div class="k">LLM · Research</div><div class="v">Qualify the lead</div></div></div>
+<div id="node-llm2" class="glass node"><div class="dot" style="background:linear-gradient(135deg,#8b7bff,#5a46e0)">AI</div><div><div class="k">LLM · Draft</div><div class="v">Write the reply</div></div></div>
+<div id="node-branch" class="glass node"><div class="dot" style="background:linear-gradient(135deg,#ffb35c,#e07a1f)">IF</div><div><div class="k">Branch</div><div class="v">Book or nurture</div></div></div>
+<div id="node-output" class="glass node"><div class="dot" style="background:linear-gradient(135deg,#5cc8ff,#1f7fe0)">$</div><div><div class="k">Output · x402</div><div class="v">Paid per call</div></div></div>
+
+<div id="cert"><div class="wm">SPECIMEN</div>
+ <div class="eb">Suede AI IP Registry · Certificate of Registration</div>
+ <h2>Midnight on <i>Mulberry St.</i></h2>
+ <div style="font:400 14px Inter;color:#6b6a5c;margin-bottom:18px">Original composition &amp; master recording</div>
+ <div class="row"><span>Author</span><span>Marla Vale</span></div>
+ <div class="row"><span>Registered</span><span>September 27, 2026 · 21:04 UTC</span></div>
+ <div class="row"><span>Fingerprint</span><span class="mono" style="font-size:13px">sha256 · 9f3c…a71e</span></div>
+ <div class="row"><span>Rights</span><span>Commercial use · licensing open</span></div>
+ <div class="row"><span>Anchored</span><span>Base · Avalanche</span></div>
+ <div class="hash">0x7a1f9c0e4b2d…e38c51 · ip.suedeai.ai/r/MV-2026-0927</div>
+</div>
+<div id="stamp"><div class="in">SUEDE AI<div class="big">Registered</div>IP REGISTRY</div></div>
+
+<div id="catalog" class="glass info"><div class="mono" style="font-size:11px;letter-spacing:.2em;opacity:.55;margin-bottom:10px">YOUR MUSIC</div><h3>Your catalog, <i>protected</i></h3>
+ <ul><li><b style="background:#5ee39a"></b>Identity protection</li><li><b style="background:#5ee39a"></b>Royalty routing</li><li><b style="background:#5ee39a"></b>Tracking, play by play</li><li><b style="background:#5ee39a"></b>On Base &amp; Avalanche</li></ul></div>
+
+<div id="x402" class="glass info"><div class="mono" style="font-size:11px;letter-spacing:.2em;opacity:.55;margin-bottom:10px">AGENTIC SEARCH</div><h3>Your agent <i>asks</i></h3>
+ <div class="code"><span class="m">GET</span> /agents/lesson?key=E<br><span class="p">x402</span> · 402 Payment Required<br><span class="p">USDC</span> on Base · settled 0.4s<br><span class="c">// no account needed</span></div></div>
+
+<div id="theory" class="glass info"><div class="mono" style="font-size:11px;letter-spacing:.2em;opacity:.55;margin-bottom:10px">TRAINING DATABASE</div><h3>Theory, <i>sourced</i></h3>
+ <ul><li><b style="background:#f5c76a"></b>Verified theory</li><li><b style="background:#f5c76a"></b>Attested song data</li><li><b style="background:#f5c76a"></b>Traditions across continents</li></ul></div>
+
+<div id="cin1" class="ph"><div class="eb">Suede Cinematic · Create</div><h4>Type it.<br><i>See it.</i></h4>
+ <div class="img" style="height:330px;background-image:url(../assets/img/storybeam_art.png);background-position:38% 40%;background-size:240%"></div>
+ <div class="prompt">“A girl and her mom under a river of stories, storybook glow, slow push-in”</div><div class="btn">Generate</div></div>
+<div id="cin2" class="ph"><div class="eb">Suede Cinematic · Animate</div><h4>Then<br><i>animate it.</i></h4>
+ <div class="img" style="height:380px;background-image:url(../assets/img/guitarhub_06.webp);background-size:cover"></div>
+ <div class="bar"><i></i></div>
+ <div class="tl"><div style="background-image:url(../assets/img/guitarhub_06.webp)"></div><div style="background-image:url(../assets/img/guitarhub_00.webp)"></div><div style="background-image:url(../assets/img/social_00.webp)"></div><div style="background-image:url(../assets/img/promo_02.jpg)"></div></div></div>
+<div id="cin3" class="ph"><div class="eb">Suede Cinematic · Gallery</div><h4>Your work,<br><i>kept.</i></h4>
+ <div class="grid"><div style="background-image:url(../assets/img/storybeam_art.png);background-position:70% 30%"></div><div style="background-image:url(../assets/img/guitarhub_06.webp)"></div><div style="background-image:url(../assets/img/social_00.webp)"></div><div style="background-image:url(../assets/img/promo_02.jpg)"></div><div style="background-image:url(../assets/img/guitarhub_00.webp)"></div><div style="background-image:url(../assets/img/storybeam_00.webp)"></div></div></div>
+<div id="cin4" class="ph" style="display:flex;flex-direction:column;align-items:center"><div class="eb">Suede Cinematic · Provenance</div><h4>Don’t just generate it.<br><i>Own it.</i></h4>
+ <div style="width:150px;height:150px;border-radius:38px;background:linear-gradient(145deg,#0f3b3c,#0a1a22);display:grid;place-items:center;box-shadow:0 0 60px rgba(95,214,208,.35),inset 0 1px 0 rgba(255,255,255,.2);margin:20px 0 26px"><div style="width:110px;height:110px;background:#9ff3ee;-webkit-mask:url(../assets/img/logo_mask.png) center/125% no-repeat"></div></div>
+ <div class="prompt" style="width:100%"><div class="mono" style="font-size:11px;letter-spacing:.18em;color:#5fd6d0;margin-bottom:8px">REGISTERED ON SUEDE</div>Provenance on the record.<br><span class="mono" style="font-size:12px;opacity:.55">ip.suedeai.ai · 0x7a1f…c51</span></div>
+ <div class="btn" style="width:100%">View certificate</div></div>
+
+<div id="icons" style="display:flex;flex-wrap:wrap;gap:30px;width:1700px"></div>
+<script>
+const icons = [
+ ['suede','linear-gradient(150deg,#1b2050,#080a1c)','linear-gradient(160deg,#ffffff,#b8c2ff)'],
+ ['agents','linear-gradient(150deg,#7b6cff,#3b2bb8)','#fff'],
+ ['storybeam','url(../assets/img/storybeam_art.png) 30% 40%/330%','none'],
+ ['guitarhub','linear-gradient(150deg,#2a1d0e,#0b0805)','linear-gradient(160deg,#ffd27a,#c8862a)'],
+ ['fretpulse','linear-gradient(150deg,#3a8bff,#0b46c9)','#fff'],
+ ['sing','linear-gradient(150deg,#1d4b35,#0b2219)','linear-gradient(160deg,#ffe3a0,#d2a24c)'],
+ ['ip','linear-gradient(150deg,#2fbf73,#0f6b3d)','#fff'],
+ ['social','linear-gradient(150deg,#ff5a5a,#c21d2a)','#fff'],
+ ['map','radial-gradient(circle at 30% 30%,#2b2f52,#0a0b18)','linear-gradient(160deg,#fff7c7,#e6d27a)'],
+ ['cinematic','linear-gradient(150deg,#13838a,#0a3b44)','linear-gradient(160deg,#c9fffb,#6fe3dc)'],
+ ['muse','linear-gradient(150deg,#ff9b3d,#d5531a)','#fff'],
+ ['voice','linear-gradient(150deg,#3a2a12,#120c05)','linear-gradient(160deg,#ffd98a,#b97e2a)'],
+ ['strumly','linear-gradient(150deg,#6b3df0,#2a1580)','#fff'],
+ ['studio','linear-gradient(150deg,#e3262e,#7a0c12)','#fff'],
+ ['skills','linear-gradient(150deg,#1c1c1c,#050505)','linear-gradient(160deg,#ffffff,#a8a8a8)'],
+ ['coin','radial-gradient(circle at 35% 30%,#3a2a10,#0d0904)','linear-gradient(160deg,#ffe8a3,#e0a640 55%,#8a5a12)'],
+];
+const box = document.getElementById('icons');
+for (const [id,bg,fg] of icons){ const d=document.createElement('div'); d.className='icon'; d.id='icon-'+id; d.style.background=bg;
+  if(fg!=='none'){const s=document.createElement('div'); s.className='s'; s.style.background=fg; d.appendChild(s);} 
+  if(id==='map'){ for(let i=0;i<22;i++){const st=document.createElement('i'); const x=20+Math.random()*216,y=20+Math.random()*216; st.style.cssText=`position:absolute;left:${x}px;top:${y}px;width:3px;height:3px;border-radius:50%;background:#fff;opacity:${.3+Math.random()*.6}`; d.insertBefore(st,d.firstChild);} }
+  const g=document.createElement('div'); g.className='gl'; d.appendChild(g); box.appendChild(d);}
+</script>
+</body></html>
