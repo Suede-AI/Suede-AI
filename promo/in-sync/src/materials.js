@@ -25,7 +25,7 @@ export function screenMaterial(o = {}) {
       uOpacity: { value: 1 }, uBright: { value: o.bright ?? 0.9 }, uBlur: { value: 0 },
       uFocus: { value: 3 }, uFocusRange: { value: 4 }, uDof: { value: o.dof ?? 1 },
       uRim: { value: new THREE.Color(o.rim || '#ffffff') }, uRimAmt: { value: o.rimAmt ?? 0.35 },
-      uSheen: { value: -2 }, uSheenAmt: { value: o.sheenAmt ?? 0.12 },
+      uSheen: { value: -2 }, uSheenAmt: { value: o.sheenAmt ?? 0.07 },
       uUseAlpha: { value: o.useAlpha ? 1 : 0 }, uReflect: { value: 0 }, uTint: { value: new THREE.Color(1, 1, 1) },
       uGlow: { value: 0 },
     },

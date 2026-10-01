@@ -97,18 +97,18 @@ export function apps(E) {
   const S = new Shot(E, { fov: 30, sky: { a: '#2a2a9a', b: '#3a1460', c: '#123a7a', base: '#02020a', seed: 21.1, density: 1 }, bloom: { strength: .55, radius: .6, threshold: .96 }, grade: { vig: .5 }, focus: 4.6, focusRange: 3.5 });
   const cam = S.camera;
   const shots = ['agents', 'storybeam', 'guitarhub', 'fretpulse', 'sing', 'social', 'strumly', 'ip', 'studio', 'muse', 'app'];
-  const ring = new THREE.Group(); ring.position.set(1.85, 0, -2.2); S.add(ring);
-  const R = 1.95, floorY = -.72;
+  const ring = new THREE.Group(); ring.position.set(2.3, 0, -2.3); S.add(ring);
+  const R = 1.75, floorY = -.72;
   const phones = shots.map((n, i) => { const p = phone(E, n + '_mob', { h: 1.18, metal: '#8f97b8', rim: '#dfe4ff' }); p.userData.a0 = i / shots.length * Math.PI * 2; ring.add(p); return p; });
   const refl = phones.map(p => { const r = reflect(p, floorY, .28); S.add(r); return r; });
-  const floorGlow = S.add(glow({ sx: 7, sy: 1.6, color: '#5a5cff', falloff: 3, intensity: .1, billboard: false })); floorGlow.rotation.x = -Math.PI / 2; floorGlow.position.set(1.85, floorY - .01, -2.2);
+  const floorGlow = S.add(glow({ sx: 7, sy: 1.6, color: '#5a5cff', falloff: 3, intensity: .1, billboard: false })); floorGlow.rotation.x = -Math.PI / 2; floorGlow.position.set(2.3, floorY - .01, -2.3);
   const dustP = dustField(S, { colors: ['#ffffff', '#c3c9ff'], intensity: .4 }, 91);
   const icons = ['agents', 'storybeam', 'guitarhub', 'fretpulse', 'sing', 'social', 'strumly', 'ip', 'studio', 'muse', 'suede'].map(n => icon(n, 60));
   title(S, { at: .35, eyebrow: 'App Store · iPhone & iPad', color: '#a9b8ff', lines: ['Eleven apps.'], hi: 'In your pocket.', size: 112, y: 500, out: 8.0,
     extra: [{ k: 'icons', text: icons, at: 1.55, stagger: .125, style: { width: '520px', whiteSpace: 'normal' } }] });
   const tmpV = new THREE.Vector3(), tmpC = new THREE.Vector3();
   S.on((lt, t) => {
-    look(cam, [kf(lt, [[0, -.1], [8.6, .25, ease.inOutSine]]), .38, kf(lt, [[0, 5.5], [8.6, 4.9]])], [.9, -.05, 0]); drift(cam, lt, .5, 41);
+    look(cam, [kf(lt, [[0, -.1], [8.6, .25, ease.inOutSine]]), .38, kf(lt, [[0, 5.5], [8.6, 4.9]])], [1.15, -.05, 0]); drift(cam, lt, .5, 41);
     const spin = lt * .34 + .2 - (1 - prog(lt, 0, 1.6, ease.outExpo)) * 1.2;
     cam.updateMatrixWorld(); cam.getWorldPosition(tmpC);
     phones.forEach((p, i) => {
@@ -116,7 +116,8 @@ export function apps(E) {
       p.position.set(Math.sin(a) * R, -.12 + Math.sin(lt * .8 + i) * .015, Math.cos(a) * R); p.rotation.set(0, a, 0);
       p.updateMatrixWorld(); p.getWorldPosition(tmpV);
       const facing = Math.cos(a - Math.atan2(tmpC.x - ring.position.x, tmpC.z - ring.position.z));
-      setOpacity(p, (.25 + .75 * sstep(-.2, .7, facing)) * fadeIn(lt, .1 + i * .06));
+      const ndc = tmpV.clone().project(cam).x;
+      setOpacity(p, (.25 + .75 * sstep(-.2, .7, facing)) * fadeIn(lt, .1 + i * .06) * sstep(-.3, .02, ndc));
       p.userData.mat.uniforms.uScroll.value = 0;
     });
     refl.forEach(r => { r.userData.reflectOf.updateMatrixWorld(); const o = r.userData.reflectOf; o.getWorldPosition(tmpV); const q = new THREE.Quaternion(); o.getWorldQuaternion(q);
@@ -131,9 +132,9 @@ export function apps(E) {
 export function android(E) {
   const S = new Shot(E, { fov: 30, sky: { a: '#10507a', b: '#2a2a7a', c: '#0f6a5a', base: '#01030a', seed: 33.3, density: .85 }, bloom: { strength: .55, radius: .6, threshold: .96 }, grade: { vig: .45 }, focus: 5, focusRange: 4.5 });
   const cam = S.camera;
-  const a1 = phone(E, 'agents_mob', { h: 1.32, android: true, metal: '#6f7a8c', rim: '#d6f5ff' }); a1.position.set(-1.25, -.28, .35); a1.rotation.y = .3; S.add(a1);
+  const a1 = phone(E, 'agents_mob', { h: 1.32, android: true, metal: '#6f7a8c', rim: '#d6f5ff', bright: .8 }); a1.position.set(-1.25, -.28, .35); a1.rotation.y = .3; S.add(a1);
   const a2 = phone(E, 'studio_mob', { h: 1.22, android: true, metal: '#6f7a8c', rim: '#d6f5ff' }); a2.position.set(-2.05, -.3, -.35); a2.rotation.y = .45; S.add(a2);
-  const web = browser(E, 'suedeai_desk', { w: 2.3, url: 'suedeai.ai', rimAmt: .25, bright: .84, dark: false }); web.position.set(1.05, -.15, -.45); web.rotation.y = -.16; S.add(web);
+  const web = browser(E, 'suedeai_desk', { w: 2.3, url: 'suedeai.ai', rimAmt: .25, bright: .8, dark: false }); web.position.set(1.05, -.15, -.45); web.rotation.y = -.16; S.add(web);
   const pop = card(E, E.shot('sing_mob'), { w: .62, alpha: false, radius: .025, aspect: 393 / 640, bright: .92, rimAmt: .35, rim: '#cfe7ff' });
   pop.material.uniforms.uView.value = (786 / 1704) / (393 / 640); S.add(pop);
   const l1 = label(S, E, 'GOOGLE PLAY · 6 APPS', { size: 28, tracking: 6, scale: .95, color: 'rgba(214,245,255,.85)' }); l1.position.set(-1.55, -1.13, .3);
@@ -248,8 +249,8 @@ export function cinematic(E) {
 export function agentix(E) {
   const S = new Shot(E, { fov: 30, sky: { a: '#3a2aa8', b: '#1a1a6a', c: '#5a2a9a', base: '#02020b', seed: 71.7, density: .9 }, bloom: { strength: .6, radius: .6, threshold: .95 }, grade: { vig: .45 }, focus: 5.2, focusRange: 4.5 });
   const cam = S.camera;
-  const w1 = browser(E, 'agents_desk', { w: 2.0, url: 'agents.suedeai.ai', rimAmt: .25, bright: .82, dark: false }); w1.position.set(-1.05, -.22, -.8); w1.rotation.y = .24; S.add(w1);
-  const w2 = browser(E, 'agentix_desk', { w: 2.1, url: 'agentix.suedeai.ai', rimAmt: .3, bright: .84, dark: false }); w2.position.set(1.12, -.25, .05); w2.rotation.y = -.2; S.add(w2);
+  const w1 = browser(E, 'agents_desk', { w: 2.0, url: 'agents.suedeai.ai', rimAmt: .22, bright: .76, dark: false }); w1.position.set(-1.05, -.22, -.8); w1.rotation.y = .24; S.add(w1);
+  const w2 = browser(E, 'agentix_desk', { w: 2.1, url: 'agentix.suedeai.ai', rimAmt: .22, bright: .76, dark: false }); w2.position.set(1.12, -.25, .05); w2.rotation.y = -.2; S.add(w2);
   const R = rng(5); const chart = []; let y = -1.15;
   for (let i = 0; i <= 26; i++) { const x = -2.9 + i * .23; y += .045 + (R() - .45) * .09; chart.push([x, y, .75]); }
   const th = S.add(M.makeThread(chart, { colorA: '#9d8bff', colorB: '#5ee39a', width: .03, intensity: 1.6, pulseN: 2, pulseSpeed: .35 }));
