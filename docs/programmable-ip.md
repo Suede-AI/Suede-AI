@@ -2,6 +2,8 @@
 
 Programmable IP is the ownership layer for AI-native media.
 
+> Suede AI now leads with SEO, GEO, AI integration and forward deployed engineering (see [positioning.md](positioning.md)). Programmable IP is part of Suede's portfolio.
+
 As media becomes easier to generate, remix, license, and distribute through agents, creators need clearer records of authorship, rights metadata, usage permissions, licensing terms, and monetization paths.
 
 Suede Labs AI focuses on making creative assets easier to register, verify, license, route, and monetize across product surfaces, chains, and agent workflows.

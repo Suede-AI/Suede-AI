@@ -1,6 +1,6 @@
 # Suede x402 and ACP
 
-Suede Labs AI exposes public x402 payment surfaces and an ACP-ready agent commerce endpoint for AI-native media workflows.
+Suede Labs AI exposes public x402 payment surfaces and an ACP-ready agent commerce endpoint. AI agents can use them to discover and pay for Suede services, which supports Suede's SEO, GEO, AI integration and forward deployed engineering work (see [positioning.md](positioning.md)).
 
 ## Live Endpoints
 

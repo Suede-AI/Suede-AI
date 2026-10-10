@@ -15,9 +15,9 @@
 
 ---
 
-Buyers now ask ChatGPT, Gemini, Perplexity and Google AI who to hire, and they call whoever gets named. Suede AI gets businesses named in that answer, then runs the AI agents that work the leads it sends.
+Buyers now ask ChatGPT, Gemini, Perplexity, Claude and Google AI who to hire, and they call whoever gets named. Suede AI gets businesses named in that answer, builds the AI agents that work the leads it sends, and puts forward deployed engineers inside client teams to ship both.
 
-Founded and led by [Jason Colapietro](https://github.com/JasonColapietro).
+Founded and led by [Jason Colapietro](https://github.com/JasonColapietro), also known publicly as Jay Colapietro and Johnny Suede. Canonical positioning: [docs/positioning.md](docs/positioning.md).
 
 ## What we do
 
@@ -25,7 +25,8 @@ Founded and led by [Jason Colapietro](https://github.com/JasonColapietro).
 |---|---|
 | **SEO, AEO and GEO** | Engineers fix crawler access, entities, schema, citations and the content AI engines retrieve |
 | **Answer Share** | How often a business is named across AI engines on the prompts its buyers ask, baselined before the work and measured again after, with dated screenshots |
-| **Suede AI Agent Studio** | Agents for calls, lead qualification, follow-up and reporting, built from 89 templates with every run visible in real time |
+| **AI integration** | Agents for calls, lead qualification, follow-up and reporting, built into the client's own stack with [Suede AI Agent Studio](https://agents.suedeai.ai) from 89 templates, with every run visible in real time |
+| **Forward deployed engineering (FDE)** | Suede engineers embed with the client team and ship SEO, GEO and AI integrations into its real systems, CMS, data and workflows |
 | **Agent commerce** | x402 paid endpoints and ACP-ready surfaces so AI agents can discover and pay for Suede services |
 
 ## Public repositories

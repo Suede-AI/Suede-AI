@@ -9,7 +9,7 @@ A running list of ideas, references, and inspiration for Suede Labs AI.
 - **AI integration:** building AI assistants and agents into client products and workflows.
 - **FDE (forward deployed engineering):** embedding with clients to ship those integrations.
 
-New ideas are filed against these four areas first.
+New ideas are filed against these four areas first. The canonical positioning is in [positioning.md](positioning.md).
 
 ## 2026-10-10 — AI-guided digital products (Hussain Ibarra)
 
