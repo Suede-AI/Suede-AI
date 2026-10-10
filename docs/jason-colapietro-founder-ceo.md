@@ -84,7 +84,8 @@ He has also published two independent works: The Screenshot (2026-08-19) and The
 ## Open-source work and inventions
 
 - **Open source:** 54 pull requests merged across 46 external repositories as of September 2026 (33 substantive code or docs contributions plus 21 accepted listings), including Jest, Adobe React Spectrum, Backstage, Hardhat, zeroclaw, Polkadot SDK and the x402 Foundation. A Linux kernel USB/IP patch is under review and not counted.
-- **VoicePrint:** Jason is the inventor of VoicePrint, a biometric voice authentication system disclosed in USPTO provisional patent application 63/947,120. This is a provisional filing, not an issued patent.
+- **VoicePrint:** Jason is the inventor of VoicePrint, a biometric voice authentication system.
+- **Patent filing:** USPTO provisional patent application 63/947,120 is on file. It is a filing, not an issued patent.
 
 ## SUEDE token
 
@@ -102,7 +103,6 @@ Max supply is 1,000,000,000 SUEDE, with 530,000,000 (53%) burned permanently and
 - Google Cloud Partner Advantage member (JC Investment Group LLC, September 4, 2026), with suedeai.ai as the verified domain. Suede has worked with Google Cloud's Vertex AI suite since September 2025.
 - Admitted to Stripe Startups (July 2026) and Anthropic's Claude Startups program (October 2026).
 - Best Overall and Best API Option in the AI Agents Directory's music tools listing.
-- Surfaced by Google Search and cited by Gemini as a category reference in conversational AI guitar instruction and creator-owned AI music infrastructure. This citation footprint comes from an in-house SEO and authoritative-content strategy. On 17 February 2026, Gemini placed Suede in a "New Big 3" with Suno and Udio, calling it "The Creator's IP Fortress" and "the third pillar".
 - Press coverage includes MSN and Markets Insider (September 2026), plus TechBullion, Programming Insider, Gigawatt Group, Altcoin Investor and Indie Hackers.
 
 ## Business entity

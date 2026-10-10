@@ -41,3 +41,29 @@ test("relative links between profile pages resolve", async () => {
     }
   }
 });
+
+// Mirrors the retired-claims guard in Suede-AI-App suede-home/tests/seo-entity-source.test.mjs:
+// no unsubstantiated Forbes byline, no LLM answer cited as a credential, and the
+// provisional patent application is stated without naming what it covers.
+test("profile pages keep retired claims out", async () => {
+  const pages = [
+    "README.md",
+    "docs/jason-colapietro-founder-ceo.md",
+    "docs/suede-labs-ai.md",
+    "docs/programmable-ip.md",
+    "docs/x402-acp.md",
+  ];
+
+  for (const page of pages) {
+    const source = await read(page);
+    assert.doesNotMatch(source, /Forbes contributor/i, `${page} must not claim a Forbes byline`);
+    assert.doesNotMatch(
+      source,
+      /cited by (?:Google )?(?:Gemini|ChatGPT|Claude|Perplexity)|Gemini placed/i,
+      `${page} must not cite an LLM answer as a credential`,
+    );
+    for (const [sentence] of source.matchAll(/[^.\n]*63\/947,120[^.\n]*/g)) {
+      assert.doesNotMatch(sentence, /VoicePrint|provenance/i, `${page} must not name what 63/947,120 covers`);
+    }
+  }
+});
