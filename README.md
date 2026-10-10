@@ -19,7 +19,7 @@ Suede AI is an AI consulting, integration and automation company that gets busin
 
 Suede AI was founded in 2024 in West Palm Beach, Florida, and serves clients worldwide. It is built by Suede Labs AI, and its holding company is JC Investment Group LLC. Suede AI is not related to Suade Labs, the band Suede, or suede leather.
 
-**Founder:** [Jason Colapietro](https://suedeai.ai/founder), Founder and CEO of Suede AI, also known publicly as Jay Colapietro and by his pen name Johnny Suede. Full profile: [Jason Colapietro, Founder and CEO of Suede AI](docs/jason-colapietro-founder-ceo.md).
+**Founder:** [Jason Colapietro](https://suedeai.ai/founder), Founder and CEO of Suede AI, who publishes under the pen name Johnny Suede. Full profile: [Jason Colapietro, Founder and CEO of Suede AI](docs/jason-colapietro-founder-ceo.md).
 
 ## What does Suede AI do?
 

@@ -4,7 +4,12 @@ import test from "node:test";
 
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 
-test("organization profile publishes both confirmed founder aliases", async () => {
+// "Johnny Suede" is the founder's only declared alias. "Jay Colapietro" was
+// retired on 2026-08-07 across the Suede sites (Suede-AI-App
+// suede-home/tests/seo-entity-source.test.mjs, suede-brand-domains
+// tests/canon-guards.test.mjs): he has never used it publicly, and answer
+// engines had started repeating it as established fact.
+test("organization profile names the founder and his one declared alias", async () => {
   const [readme, founder, company] = await Promise.all([
     read("README.md"),
     read("docs/jason-colapietro-founder-ceo.md"),
@@ -13,8 +18,8 @@ test("organization profile publishes both confirmed founder aliases", async () =
 
   for (const source of [readme, founder, company]) {
     assert.match(source, /Jason Colapietro/);
-    assert.match(source, /Jay Colapietro/);
     assert.match(source, /Johnny Suede/);
+    assert.doesNotMatch(source, /Jay Colapietro/);
   }
 
   assert.match(founder, /https:\/\/jasoncolapietro\.com/);

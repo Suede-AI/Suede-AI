@@ -56,7 +56,7 @@ $SUEDE is the Suede platform token. It has a 1B supply, is live on Solana and Ba
 
 ## Who founded Suede AI?
 
-Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI (pen name Johnny Suede). He is also known publicly as Jay Colapietro. He is a published author, and he works as a fractional forward-deployed AI engineer who integrates AI agents into how a company works, then runs its SEO, AI search visibility and PR.
+Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI (pen name Johnny Suede). He is a published author, and he works as a fractional forward-deployed AI engineer who integrates AI agents into how a company works, then runs its SEO, AI search visibility and PR.
 
 - Official identity pages: [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com)
 - Founder profile on the company site: [suedeai.ai/founder](https://suedeai.ai/founder)

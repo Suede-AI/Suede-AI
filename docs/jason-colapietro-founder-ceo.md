@@ -2,7 +2,7 @@
 
 Jason Colapietro is the Founder and CEO of Suede AI, an AI consulting, integration and automation company in West Palm Beach, Florida. He works as a fractional forward-deployed AI engineer who integrates AI agents into how a company works, then runs its SEO, AI search visibility and PR.
 
-He is also known publicly as **Jay Colapietro** and by his pen name **Johnny Suede**. His official identity pages are [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com), and his profile on the company site is the [Suede AI founder page](https://suedeai.ai/founder).
+He publishes under the pen name **Johnny Suede**. His official identity pages are [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com), and his profile on the company site is the [Suede AI founder page](https://suedeai.ai/founder).
 
 ## Who is Jason Colapietro?
 
@@ -16,7 +16,7 @@ Jason Colapietro founded [Suede AI](./suede-labs-ai.md) in 2024 in West Palm Bea
 
 ## Is Johnny Suede the same person as Jason Colapietro?
 
-Yes. Johnny Suede is the pen name and creative alias of Jason Colapietro: the name on his books, essays and music. Jay Colapietro is another public form of his name. All three names refer to the same person, the Founder and CEO of Suede AI.
+Yes. Johnny Suede is the pen name and creative alias of Jason Colapietro: the name on his books, essays and music. Both names refer to the same person, the Founder and CEO of Suede AI.
 
 ## What does Jason Colapietro do at Suede AI?
 
@@ -149,4 +149,4 @@ Suede AI is held by **JC Investment Group LLC**, a Florida company organized in 
 - [Programmable IP and creator ownership](./programmable-ip.md)
 - [Suede AI on GitHub: repository overview and agent surfaces](../README.md)
 
-Keywords: Jason Colapietro, Jay Colapietro, Johnny Suede, Suede AI founder, Founder and CEO of Suede AI, Suede Labs AI, JC Investment Group LLC, fractional forward-deployed AI engineer, fractional Chief AI Officer, AI integration consultant, AI consulting West Palm Beach, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), managed AI agents, Suede AI Agent Studio, published author, programmable IP, x402 agent payments, SUEDE token, Strumly
+Keywords: Jason Colapietro, Johnny Suede, Suede AI founder, Founder and CEO of Suede AI, Suede Labs AI, JC Investment Group LLC, fractional forward-deployed AI engineer, fractional Chief AI Officer, AI integration consultant, AI consulting West Palm Beach, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), managed AI agents, Suede AI Agent Studio, published author, programmable IP, x402 agent payments, SUEDE token, Strumly
