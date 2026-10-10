@@ -2,6 +2,15 @@
 
 A running list of ideas, references, and inspiration for Suede Labs AI.
 
+## Current focus
+
+- **SEO:** search ranking and entity consistency for Suede Labs AI and its founder.
+- **GEO (generative engine optimization):** getting Suede cited correctly by ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.
+- **AI integration:** building AI assistants and agents into client products and workflows.
+- **FDE (forward deployed engineering):** embedding with clients to ship those integrations.
+
+New ideas are filed against these four areas first.
+
 ## 2026-10-10 — AI-guided digital products (Hussain Ibarra)
 
 - Source: https://x.com/HussainIbarra/status/2108563595676299429
@@ -21,7 +30,9 @@ A running list of ideas, references, and inspiration for Suede Labs AI.
 
 **Relevance to Suede:**
 
-- **Producer kits as programmable IP.** Drum kits, presets, and stems are "sawdust" products. Suede could mint them with provenance, licensing terms, and token-gated access.
-- **AI-guided creator products.** Let creators attach an AI version of themselves, trained on their own frameworks, to a kit or course. Examples: a production coach that ships with a sample pack, or a mixing tutor with a preset bundle.
-- **Agent-accessible commerce.** These products could be sold to buyers and AI agents through x402 and ACP checkout flows.
-- **Content strategy.** The promotion-frequency point fits the $SUEDE content plan: post more often so CTAs are a small share of the feed.
+- **SEO/GEO: sales-page structure is GEO structure.** A specific promise, a clear problem statement, and an FAQ that answers who it's for and common objections are the parts AI answer engines extract and cite. Use this layout for Suede's service pages, with FAQ schema markup.
+- **SEO/GEO: be your own case study.** Show Suede's own GEO results as proof, such as before-and-after screenshots of ChatGPT and Perplexity answers about Suede Labs AI and Jason Colapietro. That proof sells the service better than claims.
+- **AI integration: the AI-guided course is the offer.** "An AI trained on your knowledge, frameworks, and voice" is an AI integration client pitch. Package it as an assistant built on a client's own docs, playbooks, and support content.
+- **FDE: sell your sawdust.** Turn internal FDE playbooks (integration checklists, GEO audit templates, `llms.txt` and schema setups) into productized offers or lead magnets.
+- **FDE: write a specific promise.** Use the promise formula for the FDE offer, for example: "Helping [B2B SaaS teams] go from [invisible in AI answers] to [cited by ChatGPT and Perplexity] in [90 days]."
+- **Traffic: publish more often.** More SEO/GEO content means more pages that can rank or get cited, and service CTAs become a smaller share of the feed.
