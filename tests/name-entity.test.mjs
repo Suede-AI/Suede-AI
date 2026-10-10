@@ -22,3 +22,22 @@ test("organization profile publishes both confirmed founder aliases", async () =
   assert.match(company, /https:\/\/jasoncolapietro\.com/);
   assert.match(company, /https:\/\/johnnysuede\.com/);
 });
+
+test("relative links between profile pages resolve", async () => {
+  const { access } = await import("node:fs/promises");
+  const pages = [
+    "README.md",
+    "docs/jason-colapietro-founder-ceo.md",
+    "docs/suede-labs-ai.md",
+    "docs/programmable-ip.md",
+    "docs/x402-acp.md",
+  ];
+
+  for (const page of pages) {
+    const source = await read(page);
+    for (const [, target] of source.matchAll(/\]\(((?!https?:|#|mailto:)[^)#\s]+)/g)) {
+      const resolved = new URL(target, new URL(`../${page}`, import.meta.url));
+      await assert.doesNotReject(access(resolved), `${page} links to missing ${target}`);
+    }
+  }
+});

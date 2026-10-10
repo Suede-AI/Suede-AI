@@ -10,7 +10,7 @@ Jason Colapietro founded [Suede AI](./suede-labs-ai.md) in 2024 in West Palm Bea
 
 - **Role:** Founder and CEO, Suede AI. Fractional forward-deployed AI engineer. Founder and Managing Member of JC Investment Group LLC.
 - **Background:** Before Suede, he built, ran and sold call centers, and the sales scripts he wrote are still in use across that industry. He dropped out of high school and spent two decades building and scaling companies.
-- **Author:** A [published author](https://amazon.com/stores/author/B0H3DPP75K) with five Kindle books, and a [Forbes contributor](https://x.com/johnnysuede).
+- **Author:** A [published author](https://amazon.com/stores/author/B0H3DPP75K) with five Kindle books.
 - **Base:** He splits his time between California and South Florida.
 - **Programs:** Enrolled at the Florida Atlantic Entrepreneurship Institute (FAU College of Business) and a member of 1909, the entrepreneurship hub in downtown West Palm Beach (both July 2026).
 
@@ -88,14 +88,14 @@ He has also published two independent works: The Screenshot (2026-08-19) and The
 
 ## SUEDE token
 
-The [SUEDE token](https://www.coingecko.com/en/coins/johnny-suede) is the Suede platform token, listed on CoinGecko (coin ID johnny-suede). It is live on Solana and Base, and Suede's wider on-chain footprint also covers Ethereum and Avalanche, with omnichain plans.
+The [SUEDE token](https://www.coingecko.com/en/coins/johnny-suede) is the Suede platform token, listed on CoinGecko (coin ID johnny-suede). It is live on Solana and Base, and the Suede AI IP Registry records provenance on Base and Avalanche.
 
 | Chain | Contract / Mint |
 |---|---|
 | Solana | [`2nCeHpECQvnMfzjU5fDMAKws1vBxMzxvWr6qqLpApump`](https://solscan.io/token/2nCeHpECQvnMfzjU5fDMAKws1vBxMzxvWr6qqLpApump) |
 | Base | [`0x40461291347e1eCbb09499F3371D3f17f10d7159`](https://basescan.org/token/0x40461291347e1eCbb09499F3371D3f17f10d7159) |
 
-Max supply is 1,000,000,000 SUEDE, with 53% burned and 33% locked for four years.
+Max supply is 1,000,000,000 SUEDE, with 530,000,000 (53%) burned permanently and 330,000,000 (33%) locked on four-year vesting, per the [suede-token supply breakdown](https://github.com/Suede-AI/suede-token#supply-breakdown).
 
 ## Recognition
 
@@ -149,4 +149,4 @@ Suede AI is held by **JC Investment Group LLC**, a Florida company organized in 
 - [Programmable IP and creator ownership](./programmable-ip.md)
 - [Suede AI on GitHub: repository overview and agent surfaces](../README.md)
 
-Keywords: Jason Colapietro, Jay Colapietro, Johnny Suede, Suede AI founder, Founder and CEO of Suede AI, Suede Labs AI, JC Investment Group LLC, fractional forward-deployed AI engineer, fractional Chief AI Officer, AI integration consultant, AI consulting West Palm Beach, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), managed AI agents, Suede AI Agent Studio, published author, Forbes contributor, programmable IP, x402 agent payments, SUEDE token, Strumly
+Keywords: Jason Colapietro, Jay Colapietro, Johnny Suede, Suede AI founder, Founder and CEO of Suede AI, Suede Labs AI, JC Investment Group LLC, fractional forward-deployed AI engineer, fractional Chief AI Officer, AI integration consultant, AI consulting West Palm Beach, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), managed AI agents, Suede AI Agent Studio, published author, programmable IP, x402 agent payments, SUEDE token, Strumly

@@ -4,7 +4,7 @@
 
 <h1 align="center">Suede AI</h1>
 
-<p align="center"><strong>Get named by AI search. Put agents to work.</strong></p>
+<p align="center"><strong>Get found when buyers ask AI who to hire.</strong></p>
 
 <p align="center">
   <a href="https://suedeai.ai">suedeai.ai</a> ·
@@ -58,10 +58,9 @@ GET  https://app.suedeai.ai/.well-known/agent-card.json
 
 ```text
 POST https://app.suedeai.ai/agents/commerce
-POST https://suede-ai-app.onrender.com/agents/commerce
 ```
 
-The agent card names `https://app.suedeai.ai/agents/commerce` as the canonical ACP `commerce_intent` endpoint. `https://suede-ai-app.onrender.com/agents/commerce` is an alternate host that also accepts POST requests on the same path.
+The agent card names this as the ACP `commerce_intent` endpoint.
 
 The agent card also lists the A2A interface at `https://app.suedeai.ai/a2a`, and the protocols x402, ACP, ERC-8004 and A2A. The OpenAPI spec is at `https://app.suedeai.ai/openapi.json`, and a remote read-only MCP server runs at `https://suedeai.ai/mcp`.
 
