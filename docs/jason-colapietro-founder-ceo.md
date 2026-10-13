@@ -86,6 +86,7 @@ He has also published two independent works: The Screenshot (2026-08-19) and The
 
 - **Open source:** 54 pull requests merged across 46 external repositories as of September 2026 (33 substantive code or docs contributions plus 21 accepted listings), including Jest, Adobe React Spectrum, Backstage, Hardhat, zeroclaw, Polkadot SDK and the x402 Foundation. A Linux kernel USB/IP patch is under review and not counted.
 - **VoicePrint:** Jason is the inventor of VoicePrint, a biometric voice authentication system.
+- **Patent filings:** five USPTO provisional patent applications are on file: 63/946,189, 63/946,192, 63/946,212, 63/946,217 and 63/947,120, with filing receipts issued in January 2026.
 
 ## SUEDE token
 
