@@ -29,7 +29,7 @@ Answer share is how Suede measures AI search visibility: the share of samples, a
 
 Suede's creator-ownership work connects creative assets to proof of authorship, rights metadata, licensing workflows, token-enabled access and agent-accessible commerce. AI music is an early media use case. The broader goal is programmable ownership for creator-owned IP.
 
-The live piece of this work is the [Suede AI IP Registry](https://ip.suedeai.ai), which keeps public provenance records on Base and Avalanche mainnet. A record stores a file fingerprint, a wallet-signed creator claim, contributor metadata and a timestamp. The registry issues no licenses, verifies no ownership and routes no royalties, so creators should pair it with copyright registration.
+The live piece of this work is the [Suede AI IP Registry](https://registry.suedeai.ai), which keeps public provenance records on Base and Avalanche mainnet. A record stores a file fingerprint, a wallet-signed creator claim, contributor metadata and a timestamp. The registry issues no licenses, verifies no ownership and routes no royalties, so creators should pair it with copyright registration.
 
 The creator-ownership story lives on [suedeai.org](https://suedeai.org). Read more in [Programmable IP and creator ownership](./programmable-ip.md).
 
@@ -78,7 +78,8 @@ Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI
 | Suede AI SEO (AI search visibility) | [seo.suedeai.ai](https://seo.suedeai.ai) |
 | Suede AI Agent Studio | [agents.suedeai.ai](https://agents.suedeai.ai) |
 | The story and creator ownership | [suedeai.org](https://suedeai.org) |
-| IP Registry | [ip.suedeai.ai](https://ip.suedeai.ai) |
+| IP Registry | [registry.suedeai.ai](https://registry.suedeai.ai) |
+| Artist Coordination (music IP site) | [ip.suedeai.ai](https://ip.suedeai.ai) |
 | x402 manifest | [app.suedeai.ai/.well-known/x402](https://app.suedeai.ai/.well-known/x402) |
 | Agent card | [app.suedeai.ai/.well-known/agent-card.json](https://app.suedeai.ai/.well-known/agent-card.json) |
 | Developer docs | [suedeai.ai/docs/developers](https://suedeai.ai/docs/developers) |

@@ -30,7 +30,7 @@ Suede AI, built by Suede Labs AI, is an AI consulting, integration and automatio
 
 ### The Suede AI IP Registry
 
-The live piece of this work is the [Suede AI IP Registry](https://ip.suedeai.ai), which keeps public provenance records on Base and Avalanche mainnet. Each record stores:
+The live piece of this work is the [Suede AI IP Registry](https://registry.suedeai.ai), which keeps public provenance records on Base and Avalanche mainnet. Each record stores:
 
 - a file fingerprint
 - a wallet-signed creator claim
@@ -85,7 +85,8 @@ No. The registry routes no royalties. Royalty routing is part of the broader cre
 - [What is Suede AI? Company profile of Suede AI and Suede Labs AI](./suede-labs-ai.md)
 - [Jason Colapietro, Founder and CEO of Suede AI](./jason-colapietro-founder-ceo.md)
 - [x402 payments and ACP agent commerce at Suede AI](./x402-acp.md)
-- [Suede AI IP Registry](https://ip.suedeai.ai)
+- [Suede AI IP Registry](https://registry.suedeai.ai)
+- [Artist Coordination](https://ip.suedeai.ai), the music IP site
 - [suedeai.org: the creator-ownership story](https://suedeai.org)
 
 Keywords: programmable IP, creator ownership, creator ownership infrastructure, proof of creation, proof of authorship, provenance, rights metadata, licensing workflows, music rights, music IP, royalty routing, AI-native media, AI music, Suede AI IP Registry, x402, ACP, agent commerce, Suede AI, Suede Labs AI, Jason Colapietro

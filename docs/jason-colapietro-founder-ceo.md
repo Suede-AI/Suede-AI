@@ -40,7 +40,8 @@ Alongside client work, Jason builds music and creator software and the infrastru
 |---|---|
 | [Strumly](https://strumly.suedeai.ai) | AI guitar coach that remembers your last session, with real-time chord feedback, practice drills and ear training |
 | [Suede Social](https://social.suedeai.ai) | Guitar community for gear, rigs, pedalboards and tone talk |
-| [Suede AI IP Registry](https://ip.suedeai.ai) | Public provenance records on Base and Avalanche mainnet: a file fingerprint, a wallet-signed creator claim, contributor metadata and a timestamp |
+| [Suede AI IP Registry](https://registry.suedeai.ai) | Public provenance records on Base and Avalanche mainnet: a file fingerprint, a wallet-signed creator claim, contributor metadata and a timestamp |
+| [Artist Coordination](https://ip.suedeai.ai) | Suede's music IP site: artist profiles, release destinations, approvals and correction cases in one auditable record |
 | Suede AI x402 API | Pay-per-call music, video and image generation settled in USDC on Base, discoverable through the [x402 manifest](https://app.suedeai.ai/.well-known/x402) |
 | [iOS apps](https://suedeai.ai/ios) | 9 iOS apps, 6 Android apps and 2 Chrome extensions, including Suede Guitar Tuner & Studio and Suede Voice: Vocal Range Test |
 | [Suede Market Maker](https://github.com/Suede-AI/suede-market-maker) | Self-hosted Solana market maker for SUEDE |
@@ -118,7 +119,8 @@ Suede AI is held by **JC Investment Group LLC**, a Florida company organized in 
 | [suedeai.org](https://suedeai.org) | The story and reading hub for creator ownership |
 | [hub.suedeai.ai](https://hub.suedeai.ai) | Full index of Suede surfaces |
 | [app.suedeai.ai](https://app.suedeai.ai/.well-known/agent-card.json) | Agent-commerce endpoints (agent card and x402 manifest) |
-| [ip.suedeai.ai](https://ip.suedeai.ai) | Suede AI IP Registry |
+| [registry.suedeai.ai](https://registry.suedeai.ai) | Suede AI IP Registry |
+| [ip.suedeai.ai](https://ip.suedeai.ai) | Artist Coordination, the music IP site |
 | [jcinvestmentgroup.ventures](https://jcinvestmentgroup.ventures) | Holding company, JC Investment Group LLC |
 
 ## Public profiles
