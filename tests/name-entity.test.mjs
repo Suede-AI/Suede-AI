@@ -72,3 +72,59 @@ test("profile pages keep retired claims out", async () => {
     }
   }
 });
+
+// Identity spec v2 (2026-10-19). Suede AI is an agentic platform company; the
+// README opens with the canonical company line, the founder's verified record
+// leads the proof, the offers run in one order everywhere, and the only
+// disambiguation is a neutral statement of the official domains.
+const PAGES = [
+  "README.md",
+  "docs/jason-colapietro-founder-ceo.md",
+  "docs/suede-labs-ai.md",
+  "docs/programmable-ip.md",
+  "docs/x402-acp.md",
+];
+const COMPANY_ONE_LINER =
+  "Suede AI is an agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach, Florida. It builds and runs AI agent platforms that businesses use to manage their work, and white-labels them for agencies and their clients.";
+const OFFICIAL_DOMAINS_LINE =
+  "Suede AI's official sites are suedeai.ai, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.";
+
+test("the README opens with the company line, then the founder, then the offers in spec order", async () => {
+  const readme = await read("README.md");
+  const prose = readme.slice(readme.indexOf("---"));
+
+  assert.ok(readme.includes(COMPANY_ONE_LINER), "the README carries the company one-liner verbatim");
+  assert.ok(
+    prose.trimStart().slice(3).trimStart().startsWith(COMPANY_ONE_LINER),
+    "the company one-liner is the first paragraph after the header",
+  );
+  assert.ok(readme.includes(OFFICIAL_DOMAINS_LINE), "the README states the official domains");
+
+  const sections = [...readme.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
+  assert.equal(sections[0], "Founder", "the founder section comes first");
+  assert.ok(sections.indexOf("What does Suede AI do?") > 0, "the offers follow the founder");
+
+  const offers = ["Agent platforms", "White-label agent platforms", "Managed AI agents", "Forward-deployed engineering", "AI search visibility", "Music and creator software"];
+  const table = readme.slice(readme.indexOf("## What does Suede AI do?"));
+  const positions = offers.map((offer) => table.indexOf(offer));
+  assert.ok(positions.every((p) => p >= 0), "every offer is listed");
+  assert.deepEqual([...positions].sort((a, b) => a - b), positions, "the offers run in spec order");
+});
+
+test("profile pages carry no disambiguation beyond the official domains and no retired v2 claims", async () => {
+  for (const page of PAGES) {
+    const source = await read(page);
+    assert.doesNotMatch(source, /not (?:related|affiliated) (?:to|with)|not to be confused/i, `${page} must not disambiguate against other names`);
+    assert.doesNotMatch(source, /seo\.suedeai\.ai\/(?:ai-operations|managed-ai-agents|forward-deployed-engineer|ai-integration|ai-workflow-automation)\b/, `${page} links a page that moved to suedeai.ai`);
+    assert.doesNotMatch(source, /\$\s?2[38](?:\.\d)?\s?(?:M\b|million)|\$30 ?M\b|fully diluted/i, `${page} carries a token valuation`);
+    assert.doesNotMatch(source, /in use across (?:that|the) industry|multimillion|for millions/i, `${page} carries a retired call-center superlative`);
+    assert.doesNotMatch(source, /\b(?:Anthropic|Claude) partner\b|\bGoogle partner\b|\bpatented\b|\btop 15\b|Suede Foundation/i, `${page} carries a retired credential`);
+    assert.doesNotMatch(source, /Elon Musk|Best Overall|5\/5|Managing Member/i, `${page} carries a retired claim`);
+  }
+
+  for (const page of ["README.md", "docs/suede-labs-ai.md", "docs/jason-colapietro-founder-ceo.md"]) {
+    const source = await read(page);
+    assert.doesNotMatch(source, /SUEDE token|\$SUEDE|coingecko/i, `${page} is a company or founder page and carries no token claims`);
+    assert.ok(source.includes(OFFICIAL_DOMAINS_LINE), `${page} states the official domains`);
+  }
+});

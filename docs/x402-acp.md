@@ -2,7 +2,7 @@
 
 Suede AI exposes public x402 payment surfaces and an ACP-ready agent commerce endpoint, so AI agents can discover Suede AI's paid music, video and image resources for AI-native media workflows, pay per call in USDC on Base, and transact without API keys.
 
-This page explains what x402 and ACP are, what each Suede AI agent surface does, and where to find the endpoints and tooling. Suede AI is built by Suede Labs AI, and the machine-readable surfaces name the provider as "Suede Labs".
+This page explains what x402 and ACP are, what each Suede AI agent surface does, and where to find the endpoints and tooling. Suede AI is also known as Suede Labs AI, and the machine-readable surfaces name the provider as "Suede Labs".
 
 ## What is x402?
 
