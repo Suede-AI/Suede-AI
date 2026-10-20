@@ -1,6 +1,6 @@
 # Programmable IP and Creator Ownership
 
-Programmable IP is creative work whose ownership information (authorship, provenance, rights metadata, usage permissions and licensing terms) is recorded in a machine-readable form that people, apps and AI agents can read and act on. Suede AI treats programmable IP as the ownership layer for AI-native media.
+Programmable IP is creative work whose ownership information (authorship, provenance, rights metadata, usage permissions and licensing terms) is recorded in a machine-readable form that people, apps and AI agents can read and act on. In Suede AI's music and creator software line, programmable IP is the ownership layer for AI-native media.
 
 This page explains what a programmable IP record holds, why it matters as AI makes media easier to generate and remix, and how Suede AI approaches creator ownership today.
 
@@ -26,7 +26,7 @@ Creators need clearer records of authorship, rights metadata, usage permissions,
 
 ## How does Suede AI approach creator ownership?
 
-Suede AI, built by Suede Labs AI, is an AI consulting, integration and automation company. Alongside that work it builds music and creator software, and its creator-ownership work aims to make creative assets easier to register, prove, license, route and monetize across product surfaces, chains and agent workflows. AI music is an early media use case.
+Suede AI is an agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach, Florida. It builds and runs AI agent platforms that businesses use to manage their work, and white-labels them for agencies and their clients. Creator ownership belongs to its separate music and creator software line, where the work aims to make creative assets easier to register, prove, license, route and monetize across product surfaces, chains and agent workflows. AI music is an early media use case.
 
 ### The Suede AI IP Registry
 
@@ -87,6 +87,6 @@ No. The registry routes no royalties. Royalty routing is part of the broader cre
 - [x402 payments and ACP agent commerce at Suede AI](./x402-acp.md)
 - [Suede AI IP Registry](https://registry.suedeai.ai)
 - [Artist Coordination](https://ip.suedeai.ai), the music IP site
-- [suedeai.org: the creator-ownership story](https://suedeai.org)
+- [suedeai.org](https://suedeai.org), Suede AI's research and investor site
 
 Keywords: programmable IP, creator ownership, creator ownership infrastructure, proof of creation, proof of authorship, provenance, rights metadata, licensing workflows, music rights, music IP, royalty routing, AI-native media, AI music, Suede AI IP Registry, x402, ACP, agent commerce, Suede AI, Suede Labs AI, Jason Colapietro
