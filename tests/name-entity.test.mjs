@@ -128,3 +128,23 @@ test("profile pages carry no disambiguation beyond the official domains and no r
     assert.ok(source.includes(OFFICIAL_DOMAINS_LINE), `${page} states the official domains`);
   }
 });
+
+// The September 2026 SEO cohort item is labelled "Business Insider" and MSN is
+// labelled just "MSN". The label changed on 2026-10-23 at Jason's direction,
+// matching suedeai.ai (Suede-AI-App suede-home, commit 1d1165d); the old
+// "Markets Insider (FinanceWire press release)" and "company-supplied" wording
+// must not come back on the profile pages.
+test("press labels the SEO cohort coverage as Business Insider and MSN", async () => {
+  const founder = await read("docs/jason-colapietro-founder-ceo.md");
+  assert.match(founder, /Business Insider/);
+  assert.match(founder, /\bMSN\b/);
+  assert.ok(
+    founder.includes("“Award-Winning Developer Jason Colapietro Opens Suede Labs AI’s Long-Awaited SEO Cohort”"),
+    "the headline stays verbatim",
+  );
+
+  for (const page of PAGES) {
+    const source = await read(page);
+    assert.doesNotMatch(source, /Markets Insider|FinanceWire|company-supplied/i, `${page} carries the retired press label`);
+  }
+});

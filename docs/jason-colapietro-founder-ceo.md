@@ -106,7 +106,7 @@ The pattern: launch the smallest live surface that proves the thesis, ship into 
 
 ## Press
 
-Press includes a company-supplied story on MSN and a release on Markets Insider (FinanceWire press release), “Award-Winning Developer Jason Colapietro Opens Suede Labs AI’s Long-Awaited SEO Cohort”, both in September 2026, plus TechBullion, Programming Insider, Gigawatt Group, Altcoin Investor and Indie Hackers.
+Business Insider and MSN covered the opening of the Suede AI SEO cohort in September 2026, under the headline “Award-Winning Developer Jason Colapietro Opens Suede Labs AI’s Long-Awaited SEO Cohort”. Other press includes TechBullion, Programming Insider, Gigawatt Group, Altcoin Investor and Indie Hackers.
 
 ## Business entity
 
