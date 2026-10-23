@@ -58,6 +58,8 @@ Related service pages: [AI integration](https://suedeai.ai/ai-integration) · [A
 | [suede-brand-assets](https://github.com/Suede-AI/suede-brand-assets) | Logos, color, listing copy and press kit |
 | [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) | Open-source agent skills for Claude Code and Codex, installable as a plugin marketplace (on Jason's account) |
 
+<a href="https://trendshift.io/repositories/82031?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-82031" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/82031/daily?language=Python" alt="JasonColapietro%2Fsuede-creator-skills | Trendshift" width="250" height="55"/></a>
+
 ## Agent surfaces
 
 Agent Studio and Suede's own endpoints are discoverable and payable by AI agents over x402, settled in USDC on Base with no API keys. Background: [x402 payments and ACP agent commerce at Suede AI](docs/x402-acp.md).
