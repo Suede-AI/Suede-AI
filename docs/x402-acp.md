@@ -30,7 +30,7 @@ The agent card describes the Suede AI Agent as a whole. It lists:
 - **Protocols:** x402, ACP, ERC-8004 and A2A.
 - **A2A interface:** a JSON-RPC endpoint other agents can call directly.
 - **ERC-8004 identity:** agentId 1 on Base mainnet (chainId 8453), registered at `0x9bdcb06c1a1688693767C6A32DE9ca7b17cB4085`.
-- **Provider:** Suede Labs, with JC Investment Group LLC as the legal entity.
+- **Provider:** Suede AI, with JC Investment Group LLC as the legal entity.
 
 ### Paid resources and commerce
 
