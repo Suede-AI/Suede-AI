@@ -41,6 +41,8 @@ Jason writes as Johnny Suede. His five titles available on Amazon in hardcover, 
 | <img src="https://suedeai.ai/books/stake-your-claim-cover.jpg" alt="Cover of Stake Your Claim" width="80"><br>[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ) | B0GRG8LGQQ | 2026-03-06 |
 | <img src="https://suedeai.ai/books/human-authenticity-layer-cover.jpg" alt="Cover of The Human Authenticity Layer" width="80"><br>[The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6) | B0GD5FX6N6 | 2025-12-30 |
 
+<img src="https://suedeai.ai/books/the-screenshot-cover.jpg" alt="Cover of The Screenshot" width="80"> <img src="https://suedeai.ai/books/the-signal-chain-cover.webp" alt="Cover of The Signal Chain" width="80">
+
 He has also published two works directly: [The Screenshot](https://seo.suedeai.ai/book), a free SEO and GEO field guide (2026-08-19), and [The Signal Chain](https://guitar.solutions), a history of guitar tone.
 
 ## Apps
