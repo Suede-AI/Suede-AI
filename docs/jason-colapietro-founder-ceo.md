@@ -35,11 +35,11 @@ Jason writes as Johnny Suede. His five titles available on Amazon in hardcover, 
 
 | Title | ASIN | Published |
 |---|---|---|
-| [The Claude Code Bible](https://www.amazon.com/dp/B0HHTMJWB4) | B0HHTMJWB4 | 2026-09-04 |
-| [Codex in Production](https://www.amazon.com/dp/B0HHTF3LG1) | B0HHTF3LG1 | 2026-09-04 |
-| [Proof as Infrastructure](https://www.amazon.com/dp/B0GMB2VLXQ) | B0GMB2VLXQ | 2026-02-08 |
-| [Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ) | B0GRG8LGQQ | 2026-03-06 |
-| [The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6) | B0GD5FX6N6 | 2025-12-30 |
+| <img src="https://suedeai.ai/books/claude-code-bible-cover.jpg" alt="Cover of The Claude Code Bible" width="80"><br>[The Claude Code Bible](https://www.amazon.com/dp/B0HHTMJWB4) | B0HHTMJWB4 | 2026-09-04 |
+| <img src="https://suedeai.ai/books/codex-in-production-cover.jpg" alt="Cover of Codex in Production" width="80"><br>[Codex in Production](https://www.amazon.com/dp/B0HHTF3LG1) | B0HHTF3LG1 | 2026-09-04 |
+| <img src="https://suedeai.ai/books/proof-as-infrastructure-cover.jpg" alt="Cover of Proof as Infrastructure" width="80"><br>[Proof as Infrastructure](https://www.amazon.com/dp/B0GMB2VLXQ) | B0GMB2VLXQ | 2026-02-08 |
+| <img src="https://suedeai.ai/books/stake-your-claim-cover.jpg" alt="Cover of Stake Your Claim" width="80"><br>[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ) | B0GRG8LGQQ | 2026-03-06 |
+| <img src="https://suedeai.ai/books/human-authenticity-layer-cover.jpg" alt="Cover of The Human Authenticity Layer" width="80"><br>[The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6) | B0GD5FX6N6 | 2025-12-30 |
 
 He has also published two works directly: [The Screenshot](https://seo.suedeai.ai/book), a free SEO and GEO field guide (2026-08-19), and [The Signal Chain](https://guitar.solutions), a history of guitar tone.
 
