@@ -1,6 +1,6 @@
 # Jason Colapietro, Founder and CEO of Suede AI
 
-Jason Colapietro is an engineer, author, and the founder and CEO of Suede AI. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
+Jason Colapietro is an engineer, author, and the founder and CEO of Suede AI. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon in hardcover, paperback, and Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
 
 His official identity pages are [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com), and his profile on the company site is the [Suede AI founder page](https://suedeai.ai/founder).
 
@@ -10,7 +10,7 @@ Suede AI is an agentic platform company founded in 2024 by engineer Jason Colapi
 
 - **Role:** Founder and CEO, Suede AI. Manager of JC Investment Group LLC, Suede AI's holding company.
 - **Background:** Before Suede AI, he built, ran, and sold call centers.
-- **Author:** five books on Amazon Kindle, listed below, on his [Amazon author page](https://amazon.com/stores/author/B0H3DPP75K).
+- **Author:** five books on Amazon in hardcover, paperback, and Kindle, listed below, on his [Amazon author page](https://amazon.com/stores/author/B0H3DPP75K).
 - **Base:** He splits his time between California and South Florida.
 
 ## Open-source record
@@ -31,7 +31,7 @@ Every pull request is in the [machine-readable record](https://suedeai.ai/open-s
 
 ## What books has Jason Colapietro written?
 
-Jason writes as Johnny Suede. His five Kindle titles on Amazon, the two engineering books first:
+Jason writes as Johnny Suede. His five titles available on Amazon in hardcover, paperback, and Kindle, the two engineering books first:
 
 | Title | ASIN | Published |
 |---|---|---|

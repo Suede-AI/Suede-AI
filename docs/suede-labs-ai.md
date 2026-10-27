@@ -29,7 +29,7 @@ Suede AI SEO measures AI search visibility as answer share: the share of samples
 
 ## Who founded Suede AI?
 
-Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI (pen name Johnny Suede). Jason Colapietro is an engineer, author, and the founder and CEO of Suede AI. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
+Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI (pen name Johnny Suede). Jason Colapietro is an engineer, author, and the founder and CEO of Suede AI. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon in hardcover, paperback, and Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
 
 - Official identity pages: [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com)
 - Founder profile on the company site: [suedeai.ai/founder](https://suedeai.ai/founder)
