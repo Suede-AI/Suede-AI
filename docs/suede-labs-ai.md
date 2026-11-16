@@ -1,16 +1,16 @@
-# Suede AI (Suede Labs AI)
+# Suede (Suede Labs AI)
 
-Suede AI is an agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach, Florida. It builds and runs AI agent platforms that businesses use to manage their work, and white-labels them for agencies and their clients.
+Suede is an AI engineering and digital marketing company founded in 2024 by Jason Colapietro in West Palm Beach, Florida. It builds AI agents, custom software and business automation, integrates AI into business operations, and delivers full-stack GEO, AEO and SEO through its Suede GEO practice. Suede also builds and operates white-label agent platforms for agencies.
 
-Suede AI is also known as Suede Labs AI and Suede Labs. The holding company is JC Investment Group LLC. Suede AI serves clients worldwide.
+Suede is also known as Suede AI, Suede Labs AI and Suede Labs. The holding company is JC Investment Group LLC. Suede serves clients worldwide.
 
-## What is Suede AI?
+## What is Suede?
 
-Suede AI builds the platforms businesses use to run their work with AI agents, runs those agents for them, and builds the same platform under an agency's brand for that agency's clients. Every run is visible in Suede AI Agent Studio.
+Suede builds the platforms businesses use to run their work with AI agents, runs those agents for them, and builds the same platform under an agency's brand for that agency's clients. Every run is visible in Suede AI Agent Studio.
 
-AI search visibility (Suede AI SEO) is a service line under that. Music and creator software is a separate product line.
+AI search visibility (Suede GEO) is a service line under that. Music and creator software is a separate product line.
 
-## What does Suede AI offer?
+## What does Suede offer?
 
 In this order:
 
@@ -20,23 +20,23 @@ In this order:
 | **White-label agent platforms** | Suede builds and runs an agent platform under an agency's brand, for that agency's clients. Scoped per engagement. | [suedeai.ai/white-label](https://suedeai.ai/white-label) |
 | **Managed AI agents and AI operations** | Suede builds, runs and tunes agents for a business, with every run visible in Agent Studio. | [Managed AI agents](https://suedeai.ai/managed-ai-agents) · [AI operations](https://suedeai.ai/ai-operations) |
 | **Forward-deployed engineering and fractional Chief AI Officer** | Founder-led: Jason Colapietro works inside the business to put agents into how it already runs. | [Forward-deployed engineer](https://suedeai.ai/forward-deployed-engineer) · [Fractional Chief AI Officer](https://suedeai.ai/fractional-chief-ai-officer) |
-| **AI search visibility** | Suede AI SEO, the GEO, AEO and SEO practice: crawler access, entities, schema, citations and the content AI engines retrieve. | [seo.suedeai.ai](https://seo.suedeai.ai) |
+| **AI search visibility** | Suede GEO, the full-stack GEO, AEO and SEO practice: crawler access, entities, schema, citations and the content AI engines retrieve. | [suedeai.agency](https://suedeai.agency) |
 | **Music and creator software** | A separate product line. | [suedeai.ai/music](https://suedeai.ai/music) |
 
 Related service pages: [AI integration](https://suedeai.ai/ai-integration) · [AI workflow automation](https://suedeai.ai/ai-workflow-automation)
 
-Suede AI SEO measures AI search visibility as answer share: the share of samples, across a client-approved set of real buyer prompts and a declared set of engines, in which the client is named in the answer.
+Suede GEO measures AI search visibility as answer share: the share of samples, across a client-approved set of real buyer prompts and a declared set of engines, in which the client is named in the answer.
 
-## Who founded Suede AI?
+## Who founded Suede?
 
-Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI (pen name Johnny Suede). Jason Colapietro is an engineer, author, and the founder and CEO of Suede AI. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon in hardcover, paperback, and Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
+Suede was founded and is led by Jason Colapietro, Founder and CEO of Suede (pen name Johnny Suede). Jason Colapietro is an engineer, author, and the founder and CEO of Suede. He has 54 pull requests merged across 46 open-source repositories he does not maintain, including Jest, Adobe React Spectrum, Backstage and the Polkadot SDK; he has written five books on Amazon in hardcover, paperback, and Kindle, including The Claude Code Bible and Codex in Production; and he has shipped 9 iOS apps under his own Apple developer account. He publishes under the pen name Johnny Suede.
 
 - Official identity pages: [jasoncolapietro.com](https://jasoncolapietro.com) and [johnnysuede.com](https://johnnysuede.com)
 - Founder profile on the company site: [suedeai.ai/founder](https://suedeai.ai/founder)
 - Open-source record: [machine-readable JSON](https://suedeai.ai/open-source-contributions.json) · [GitHub search](https://github.com/search?q=is%3Apr+author%3AJasonColapietro+author%3ASuede-AI+is%3Amerged+-user%3AJasonColapietro+-user%3ASuede-AI&type=pullrequests)
 - Apps: [Apple developer page](https://apps.apple.com/us/developer/jason-colapietro/id1895958699)
 - GitHub: [JasonColapietro](https://github.com/JasonColapietro)
-- Full profile: [Jason Colapietro, Founder and CEO of Suede AI](./jason-colapietro-founder-ceo.md)
+- Full profile: [Jason Colapietro, Founder and CEO of Suede](./jason-colapietro-founder-ceo.md)
 
 ## Programs
 
@@ -46,7 +46,7 @@ Suede AI was founded and is led by Jason Colapietro, Founder and CEO of Suede AI
 
 ## Agent commerce: x402 and ACP
 
-Suede exposes paid x402 endpoints and an ACP-ready commerce surface that AI agents can discover and pay. Agents built in Agent Studio can be published the same way. Suede's own x402 resources cover music, video and image generation, settled in USDC on Base with no API keys. The current endpoint list is in [Agent surfaces](../README.md#agent-surfaces), and the payment model is explained in [x402 payments and ACP agent commerce at Suede AI](./x402-acp.md).
+Suede exposes paid x402 endpoints and an ACP-ready commerce surface that AI agents can discover and pay. Agents built in Agent Studio can be published the same way. Suede's own x402 resources cover music, video and image generation, settled in USDC on Base with no API keys. The current endpoint list is in [Agent surfaces](../README.md#agent-surfaces), and the payment model is explained in [x402 payments and ACP agent commerce at Suede](./x402-acp.md).
 
 ## Music and creator software
 
@@ -69,8 +69,8 @@ Read more in [Programmable IP and creator ownership](./programmable-ip.md).
 | Company site | [suedeai.ai](https://suedeai.ai) |
 | Suede AI Agent Studio | [agents.suedeai.ai](https://agents.suedeai.ai) |
 | White-label agent platforms | [suedeai.ai/white-label](https://suedeai.ai/white-label) |
-| Suede AI SEO (AI search visibility) | [seo.suedeai.ai](https://seo.suedeai.ai) |
-| Research and investors | [suedeai.org](https://suedeai.org), Suede AI's research and investor site |
+| Suede GEO (AI search visibility) | [suedeai.agency](https://suedeai.agency) |
+| Research and investors | [suedeai.org](https://suedeai.org), Suede's research and investor site |
 | IP Registry | [registry.suedeai.ai](https://registry.suedeai.ai) |
 | Artist Coordination (music IP site) | [ip.suedeai.ai](https://ip.suedeai.ai) |
 | x402 manifest | [app.suedeai.ai/.well-known/x402](https://app.suedeai.ai/.well-known/x402) |
@@ -80,7 +80,7 @@ Read more in [Programmable IP and creator ownership](./programmable-ip.md).
 | GitHub organization | [Suede-AI](https://github.com/Suede-AI) |
 | X | [@AISUEDE](https://x.com/AISUEDE) |
 | LinkedIn | [Suede Labs company page](https://www.linkedin.com/company/suede-labs) |
-| YouTube | [Suede AI (@aisuede)](https://www.youtube.com/@aisuede) |
+| YouTube | [Suede (@aisuede)](https://www.youtube.com/@aisuede) |
 | Telegram | [t.me/SUEDEAI](https://t.me/SUEDEAI) |
 
 Sales: info@suedeai.ai. Press: press@suedeai.ai. Phone: +1 (561) 401-0518.
@@ -90,20 +90,20 @@ Sales: info@suedeai.ai. Press: press@suedeai.ai. Phone: +1 (561) 401-0518.
 | Repository | Purpose |
 |---|---|
 | [Suede-AI/suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) | Python SDK for the Suede x402 API (`pip install suede-ai`) |
-| [Suede-AI/suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs for Suede AI's APIs and agent endpoints |
+| [Suede-AI/suede-docs](https://github.com/Suede-AI/suede-docs) | Public docs for Suede's APIs and agent endpoints |
 | [Suede-AI/suedeai-org](https://github.com/Suede-AI/suedeai-org) | Source for suedeai.org |
 | [Suede-AI/suede-brand-assets](https://github.com/Suede-AI/suede-brand-assets) | Logos, colors, listing copy and press kit |
 | [JasonColapietro/suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) | Open-source agent skills for Claude Code and Codex |
 
 ## Official domains
 
-Suede AI's official sites are suedeai.ai, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.
+Suede's official sites are suedeai.ai, suedeai.agency, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.
 
 ## Related
 
-- [Suede AI on GitHub](../README.md): repository overview and agent surfaces
-- [Jason Colapietro, Founder and CEO of Suede AI](./jason-colapietro-founder-ceo.md)
+- [Suede on GitHub](../README.md): repository overview and agent surfaces
+- [Jason Colapietro, Founder and CEO of Suede](./jason-colapietro-founder-ceo.md)
 - [Programmable IP and creator ownership](./programmable-ip.md)
-- [x402 payments and ACP agent commerce at Suede AI](./x402-acp.md)
+- [x402 payments and ACP agent commerce at Suede](./x402-acp.md)
 
-Keywords: Suede AI, Suede Labs AI, Suede Labs, agentic platform company, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization, answer engine optimization, Suede AI SEO, x402, ACP, Jason Colapietro, Johnny Suede, JC Investment Group LLC, West Palm Beach
+Keywords: Suede, Suede Labs AI, Suede Labs, agentic platform company, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization, answer engine optimization, Suede GEO, x402, ACP, Jason Colapietro, Johnny Suede, JC Investment Group LLC, West Palm Beach
