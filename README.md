@@ -18,7 +18,7 @@
 
 Suede is an AI engineering and digital marketing company founded in 2024 by Jason Colapietro in West Palm Beach, Florida. It builds AI agents, custom software and business automation, integrates AI into business operations, and delivers full-stack GEO, AEO and SEO through its Suede GEO practice. Suede also builds and operates white-label agent platforms for agencies.
 
-Suede is also known as Suede AI, Suede Labs and Suede Labs AI. Its holding company is JC Investment Group LLC.
+Suede was formerly known as Suede Labs AI and Suede AI. Its holding company is JC Investment Group LLC.
 
 Suede's official sites are suedeai.ai, suedeai.agency, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.
 
@@ -64,7 +64,7 @@ Related service pages: [AI integration](https://suedeai.ai/ai-integration) · [A
 
 ## Agent surfaces
 
-Agent Studio and Suede's own endpoints are discoverable and payable by AI agents over x402, settled in USDC on Base with no API keys. Background: [x402 payments and ACP agent commerce at Suede AI](docs/x402-acp.md).
+Agent Studio and Suede's own endpoints are discoverable and payable by AI agents over x402, settled in USDC on Base with no API keys. Background: [x402 payments and ACP agent commerce at Suede](docs/x402-acp.md).
 
 **Discovery**
 
@@ -96,7 +96,7 @@ The agent card names this as the ACP `commerce_intent` endpoint. It also lists t
 |---|---|
 | [What is Suede? Company profile and former brand names](docs/suede-labs-ai.md) | The company: what Suede does, in order, who runs it, and its official repositories |
 | [Jason Colapietro, Founder and CEO of Suede](docs/jason-colapietro-founder-ceo.md) | The founder: open-source record, books, apps, programs, public profiles and aliases |
-| [x402 payments and ACP agent commerce at Suede AI](docs/x402-acp.md) | How AI agents discover and pay for Suede AI endpoints |
+| [x402 payments and ACP agent commerce at Suede](docs/x402-acp.md) | How AI agents discover and pay for Suede endpoints |
 | [Programmable IP and creator ownership](docs/programmable-ip.md) | Creator ownership, provenance and rights metadata, part of the music and creator software line |
 
 ## Contact
@@ -105,6 +105,6 @@ The agent card names this as the ACP `commerce_intent` endpoint. It also lists t
 - **Press:** [press@suedeai.ai](mailto:press@suedeai.ai) · [press kit](https://suedeai.ai/press)
 - **Company:** [suedeai.ai](https://suedeai.ai) · [suedeai.org](https://suedeai.org)
 - **Founder:** [Jason Colapietro's founder page](https://suedeai.ai/founder)
-- **Social:** [X @AISUEDE](https://x.com/AISUEDE) · [LinkedIn](https://www.linkedin.com/company/suede-labs) · [YouTube: Suede AI](https://www.youtube.com/@aisuede) · [Instagram](https://www.instagram.com/suedeai/)
+- **Social:** [X @AISUEDE](https://x.com/AISUEDE) · [LinkedIn](https://www.linkedin.com/company/suede-labs) · [YouTube: Suede](https://www.youtube.com/@aisuede) · [Instagram](https://www.instagram.com/suedeai/)
 
-Keywords: Suede, Suede GEO, full-stack GEO, SEO, Suede AI, Suede Labs AI, AI engineering, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), Suede GEO, x402, ACP, A2A, agent commerce, Jason Colapietro, Johnny Suede, West Palm Beach
+Keywords: Suede, Suede GEO, full-stack GEO, SEO, AI engineering, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), Suede GEO, x402, ACP, A2A, agent commerce, Jason Colapietro, Johnny Suede, West Palm Beach

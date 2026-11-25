@@ -152,9 +152,9 @@ Suede's official sites are suedeai.ai, suedeai.agency, suedeai.org and their sub
 
 ## Related
 
-- [What is Suede? Company profile of Suede and Suede Labs AI](./suede-labs-ai.md)
+- [What is Suede? Company profile of Suede](./suede-labs-ai.md)
 - [x402 payments and ACP agent commerce at Suede](./x402-acp.md)
 - [Programmable IP and creator ownership](./programmable-ip.md)
 - [Suede on GitHub: repository overview and agent surfaces](../README.md)
 
-Keywords: Jason Colapietro, Johnny Suede, engineer, author, Suede founder, Founder and CEO of Suede, Suede Labs AI, JC Investment Group LLC, open-source contributor, Jest, Adobe React Spectrum, Backstage, Polkadot SDK, The Claude Code Bible, Codex in Production, iOS developer, agentic platform, white-label AI agents, AI agent platform, managed AI agents, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), Suede AI Agent Studio, x402 agent payments
+Keywords: Jason Colapietro, Johnny Suede, engineer, author, Suede founder, Founder and CEO of Suede, JC Investment Group LLC, open-source contributor, Jest, Adobe React Spectrum, Backstage, Polkadot SDK, The Claude Code Bible, Codex in Production, iOS developer, agentic platform, white-label AI agents, AI agent platform, managed AI agents, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization (GEO), answer engine optimization (AEO), Suede AI Agent Studio, x402 agent payments

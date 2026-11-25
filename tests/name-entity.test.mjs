@@ -73,7 +73,7 @@ test("profile pages keep retired claims out", async () => {
   }
 });
 
-// Identity spec v2 (2026-10-19). Suede AI is an agentic platform company; the
+// Identity spec v2 (2026-10-19). Suede is an agentic platform company; the
 // README opens with the canonical company line, the founder's verified record
 // leads the proof, the offers run in one order everywhere, and the only
 // disambiguation is a neutral statement of the official domains.
@@ -85,9 +85,9 @@ const PAGES = [
   "docs/x402-acp.md",
 ];
 const COMPANY_ONE_LINER =
-  "Suede AI is an agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach, Florida. It builds and runs AI agent platforms that businesses use to manage their work, and white-labels them for agencies and their clients.";
+  "Suede is an agentic platform company founded in 2024 by engineer Jason Colapietro in West Palm Beach, Florida. It builds and runs AI agent platforms that businesses use to manage their work, and white-labels them for agencies and their clients.";
 const OFFICIAL_DOMAINS_LINE =
-  "Suede AI's official sites are suedeai.ai, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.";
+  "Suede's official sites are suedeai.ai, suedeai.org and their subdomains. It was founded in 2024 by Jason Colapietro.";
 
 test("the README opens with the company line, then the founder, then the offers in spec order", async () => {
   const readme = await read("README.md");
@@ -102,10 +102,10 @@ test("the README opens with the company line, then the founder, then the offers 
 
   const sections = [...readme.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
   assert.equal(sections[0], "Founder", "the founder section comes first");
-  assert.ok(sections.indexOf("What does Suede AI do?") > 0, "the offers follow the founder");
+  assert.ok(sections.indexOf("What does Suede do?") > 0, "the offers follow the founder");
 
   const offers = ["Agent platforms", "White-label agent platforms", "Managed AI agents", "Forward-deployed engineering", "AI search visibility", "Music and creator software"];
-  const table = readme.slice(readme.indexOf("## What does Suede AI do?"));
+  const table = readme.slice(readme.indexOf("## What does Suede do?"));
   const positions = offers.map((offer) => table.indexOf(offer));
   assert.ok(positions.every((p) => p >= 0), "every offer is listed");
   assert.deepEqual([...positions].sort((a, b) => a - b), positions, "the offers run in spec order");

@@ -1,8 +1,8 @@
-# Suede (Suede Labs AI)
+# Suede
 
 Suede is an AI engineering and digital marketing company founded in 2024 by Jason Colapietro in West Palm Beach, Florida. It builds AI agents, custom software and business automation, integrates AI into business operations, and delivers full-stack GEO, AEO and SEO through its Suede GEO practice. Suede also builds and operates white-label agent platforms for agencies.
 
-Suede is also known as Suede AI, Suede Labs AI and Suede Labs. The holding company is JC Investment Group LLC. Suede serves clients worldwide.
+Suede was formerly known as Suede Labs AI and Suede AI. The holding company is JC Investment Group LLC. Suede serves clients worldwide.
 
 ## What is Suede?
 
@@ -79,7 +79,7 @@ Read more in [Programmable IP and creator ownership](./programmable-ip.md).
 | Holding company | [JC Investment Group LLC](https://jcinvestmentgroup.ventures) |
 | GitHub organization | [Suede-AI](https://github.com/Suede-AI) |
 | X | [@AISUEDE](https://x.com/AISUEDE) |
-| LinkedIn | [Suede Labs company page](https://www.linkedin.com/company/suede-labs) |
+| LinkedIn | [Suede company page](https://www.linkedin.com/company/suede-labs) |
 | YouTube | [Suede (@aisuede)](https://www.youtube.com/@aisuede) |
 | Telegram | [t.me/SUEDEAI](https://t.me/SUEDEAI) |
 
@@ -106,4 +106,4 @@ Suede's official sites are suedeai.ai, suedeai.agency, suedeai.org and their sub
 - [Programmable IP and creator ownership](./programmable-ip.md)
 - [x402 payments and ACP agent commerce at Suede](./x402-acp.md)
 
-Keywords: Suede, Suede Labs AI, Suede Labs, agentic platform company, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization, answer engine optimization, Suede GEO, x402, ACP, Jason Colapietro, Johnny Suede, JC Investment Group LLC, West Palm Beach
+Keywords: Suede, agentic platform company, AI agent platform, white-label AI agents, white-label agent platform for agencies, Suede AI Agent Studio, managed AI agents, AI operations, workflow automation, forward-deployed engineer, fractional Chief AI Officer, AI search visibility, generative engine optimization, answer engine optimization, Suede GEO, x402, ACP, Jason Colapietro, Johnny Suede, JC Investment Group LLC, West Palm Beach
